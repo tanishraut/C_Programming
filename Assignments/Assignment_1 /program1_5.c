@@ -12,14 +12,13 @@ void Accept(int iNo)
 }
 
 int main()
-//Question says to take input from user,but in 
-//assignment there was fixed value so i changed it to 
-//user input
+//Question says to take input from user
+//But Assignment has Fixed value printed
 
 {
-   int iValue = 0;
-   printf("Enter No :");
-   scanf("%d",&iValue);
+int iValue = 0;    
+     iValue = 5;
+
    Accept(iValue);
    return 0 ;
     

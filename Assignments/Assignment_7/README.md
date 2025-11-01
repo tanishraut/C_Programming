@@ -1,3 +1,6 @@
+# Assignment 7 – Looping & Display Programs Summary
+
+c''' 
 //////////////////////////////////////////////////////////////
 //
 //  Author Name :       Tanish Tanaji Raut
@@ -61,28 +64,3 @@
 //  Function Name :     DisplayOdd
 //  Description   :     Accepts number from user and displays all odd numbers up to that number
 //  Input         :     Integer
-//  Output        :     Sequence of Odd Integers
-//
-//////////////////////////////////////////////////////////////
-//
-//  Input: 10
-//  Output: 1 3 5 7 9
-//
-//////////////////////////////////////////////////////////////
-
-
-//////////////////////////////////////////////////////////////
-//  Program7_5
-//
-//  Function Name :     DisplayMulti
-//  Description   :     Accepts number from user and displays its first 5 multiples
-//  Input         :     Integer
-//  Output        :     Sequence of Integers (Multiples)
-//
-//////////////////////////////////////////////////////////////
-//
-//  Input: 4
-//  Calculation: 4 × 1 = 4, 4 × 2 = 8, 4 × 3 = 12, 4 × 4 = 16, 4 × 5 = 20
-//  Output: 4 8 12 16 20
-//
-//////////////////////////////////////////////////////////////

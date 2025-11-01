@@ -5,7 +5,7 @@
 //
 //  Author Name :       Tanish Tanaji Raut
 //  Assignment :        5
-//  Description :       Input / Output summary for all programs
+//  Description :       Input / Output summary 
 //
 //////////////////////////////////////////////////////////////
 

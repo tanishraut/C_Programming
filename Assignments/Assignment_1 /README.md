@@ -1,6 +1,7 @@
 
+# Assignment 1 – Input / Output Summary
 
-'''
+```c
 //////////////////////////////////////////////////////////////
 //
 //  Author Name :       Tanish Tanaji Raut

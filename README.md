@@ -1011,462 +1011,625 @@
 
 
 
-# Assignment 11 – Looping and Number Property Programs
-**Description:** Programs focused on number manipulation, counting, and conditional logic.
+# Assignment 11 – Range and Loop-Based Programs
+**Description:** Programs focusing on number ranges, iterative loops, and conditional logic to perform summations, filtering, and range-based output.
 
 //////////////////////////////////////////////////////////////
 //  Program11_1
 //
-//  Function Name :     CountEven
-//  Description   :     Counts even digits in a given number.
-//  Input         :     Integer
-//  Output        :     Integer (Count of even digits)
+//  Function Name :     RangeDisplay
+//  Description   :     Displays all numbers between the given range (start to end).
+//  Input         :     Two integers (start, end)
+//  Output        :     Prints numbers from start to end
+//  Return Value  :     None
 //
+//  Example:
+//  Input : 23 30
+//  Output : 23 24 25 26 27 28 29 30
+//
+//  Input : 10 5
+//  Output : Invalid range
+//
+//  Time Complexity : O(n)
 //////////////////////////////////////////////////////////////
-//
-//  Input : 2395
-//  Output : 1
-//
-//  Time Complexity : O(d)
-//
-//////////////////////////////////////////////////////////////
+
 
 //////////////////////////////////////////////////////////////
 //  Program11_2
 //
-//  Function Name :     CountOdd
-//  Description   :     Counts odd digits in a given number.
-//  Input         :     Integer
-//  Output        :     Integer (Count of odd digits)
+//  Function Name :     RangeDisplayEven
+//  Description   :     Displays all even numbers in the given range (start to end).
+//  Input         :     Two integers (start, end)
+//  Output        :     Prints even numbers from start to end
+//  Return Value  :     None
 //
+//  Example:
+//  Input : 23 35
+//  Output : 24 26 28 30 32 34
+//
+//  Input : 10 5
+//  Output : Invalid range
+//
+//  Time Complexity : O(n/2)
 //////////////////////////////////////////////////////////////
-//
-//  Input : 2395
-//  Output : 3
-//
-//  Time Complexity : O(d)
-//
-//////////////////////////////////////////////////////////////
+
 
 //////////////////////////////////////////////////////////////
 //  Program11_3
 //
-//  Function Name :     CountRange
-//  Description   :     Counts digits between 3 and 7 inclusive.
-//  Input         :     Integer
-//  Output        :     Integer (Count)
+//  Function Name :     RangeSum
+//  Description   :     Calculates and returns the summation of all numbers 
+//                      in the specified range (start to end).
+//  Input         :     Two integers (start, end)
+//  Output        :     Integer (sum of numbers in the range)
+//  Return Value  :     -1 if range is invalid
 //
+//  Example:
+//  Input : 23 30
+//  Output : Addition is 212
+//
+//  Input : 10 5
+//  Output : Invalid range
+//
+//  Time Complexity : O(n)
 //////////////////////////////////////////////////////////////
-//
-//  Input : 8641
-//  Output : 1
-//
-//  Time Complexity : O(d)
-//
-//////////////////////////////////////////////////////////////
+
 
 //////////////////////////////////////////////////////////////
 //  Program11_4
 //
-//  Function Name :     MultDigits
-//  Description   :     Calculates product of digits in number.
-//  Input         :     Integer
-//  Output        :     Integer (Product)
+//  Function Name :     RangeSumEven
+//  Description   :     Calculates and returns the summation of all even numbers 
+//                      in the specified range (start to end).
+//  Input         :     Two integers (start, end)
+//  Output        :     Integer (sum of even numbers in range)
+//  Return Value  :     -1 if range is invalid
 //
+//  Example:
+//  Input : 23 30
+//  Output : Addition is 108
+//
+//  Input : 10 18
+//  Output : Addition is 70
+//
+//  Input : 90 18
+//  Output : Invalid range
+//
+//  Time Complexity : O(n/2)
 //////////////////////////////////////////////////////////////
-//
-//  Input : 2395
-//  Output : 270
-//
-//  Time Complexity : O(d)
-//
-//////////////////////////////////////////////////////////////
+
 
 //////////////////////////////////////////////////////////////
 //  Program11_5
 //
-//  Function Name :     CountDiff
-//  Description   :     Finds difference between sum of even and odd digits.
-//  Input         :     Integer
-//  Output        :     Integer (Difference)
+//  Function Name :     RangeDisplayRev
+//  Description   :     Displays all numbers from the given range 
+//                      in reverse order (from end to start).
+//  Input         :     Two integers (start, end)
+//  Output        :     Prints numbers in reverse order
+//  Return Value  :     None
 //
-//////////////////////////////////////////////////////////////
+//  Example:
+//  Input : 23 30
+//  Output : 30 29 28 27 26 25 24 23
 //
-//  Input : 2395
-//  Output : -15
+//  Input : 10 5
+//  Output : Invalid range
 //
-//  Time Complexity : O(d)
-//
+//  Time Complexity : O(n)
 //////////////////////////////////////////////////////////////
 
 
-# Assignment 12 – Looping and Arithmetic Operations
-**Description:** Iterative solutions for arithmetic tasks and mathematical checks.
+# Assignment 12 – Factor-Based Programs
+**Description:** Programs focusing on factor operations such as counting, summing, and filtering factors, along with a basic divisibility check. These help strengthen understanding of iterative logic and condition-based loops in C.
 
 //////////////////////////////////////////////////////////////
 //  Program12_1
 //
-//  Function Name :     SumOfEvenDigits
-//  Description   :     Calculates sum of even digits in a number.
-//  Input         :     Integer
-//  Output        :     Integer
+//  Function Name :     print_factors
+//  Description   :     Displays all factors of a given positive integer.
+//  Input         :     Integer (number)
+//  Output        :     Prints all factors of the entered number
+//  Return Value  :     None
 //
+//  Example:
+//  Input : 12
+//  Output : 1 2 3 4 6 12
+//
+//  Input : 17
+//  Output : 1 17
+//
+//  Input : -5
+//  Output : Please enter a positive number
+//
+//  Time Complexity : O(n)
 //////////////////////////////////////////////////////////////
-//
-//  Input : 2436
-//  Output : 12
-//
-//  Time Complexity : O(d)
-//
-//////////////////////////////////////////////////////////////
+
 
 //////////////////////////////////////////////////////////////
 //  Program12_2
 //
-//  Function Name :     SumOfOddDigits
-//  Description   :     Calculates sum of odd digits in a number.
-//  Input         :     Integer
-//  Output        :     Integer
+//  Function Name :     count_factors
+//  Description   :     Counts the total number of factors of a given integer.
+//  Input         :     Integer (number)
+//  Output        :     Integer (count of factors)
+//  Return Value  :     0 if input number is invalid or non-positive
 //
+//  Example:
+//  Input : 12
+//  Output : 6
+//
+//  Input : 17
+//  Output : 2
+//
+//  Input : -8
+//  Output : 0
+//
+//  Time Complexity : O(n)
 //////////////////////////////////////////////////////////////
-//
-//  Input : 2436
-//  Output : 5
-//
-//  Time Complexity : O(d)
-//
-//////////////////////////////////////////////////////////////
+
 
 //////////////////////////////////////////////////////////////
 //  Program12_3
 //
-//  Function Name :     ReverseNumber
-//  Description   :     Reverses the digits of a number.
-//  Input         :     Integer
-//  Output        :     Integer (Reversed number)
+//  Function Name :     sum_of_factors
+//  Description   :     Calculates and returns the summation of all factors 
+//                      of a given positive integer.
+//  Input         :     Integer (number)
+//  Output        :     Integer (sum of all factors)
+//  Return Value  :     0 if input number is invalid or non-positive
 //
+//  Example:
+//  Input : 12
+//  Output : 28
+//
+//  Input : 10
+//  Output : 18
+//
+//  Input : -6
+//  Output : 0
+//
+//  Time Complexity : O(n)
 //////////////////////////////////////////////////////////////
-//
-//  Input : 2395
-//  Output : 5932
-//
-//  Time Complexity : O(d)
-//
-//////////////////////////////////////////////////////////////
+
 
 //////////////////////////////////////////////////////////////
 //  Program12_4
 //
-//  Function Name :     CountDigits
-//  Description   :     Counts number of digits in given number.
-//  Input         :     Integer
-//  Output        :     Integer (Digit count)
+//  Function Name :     sum_of_even_factors
+//  Description   :     Calculates and returns the sum of all even factors 
+//                      (excluding the number itself) of a given positive integer.
+//  Input         :     Integer (number)
+//  Output        :     Integer (sum of even factors)
+//  Return Value  :     0 if input number is invalid or non-positive
 //
+//  Example:
+//  Input : 12
+//  Output : 12   // (2 + 4 + 6)
+//
+//  Input : 18
+//  Output : 20   // (2 + 6 + 12)
+//
+//  Input : -8
+//  Output : 0
+//
+//  Time Complexity : O(n)
 //////////////////////////////////////////////////////////////
-//
-//  Input : 2395
-//  Output : 4
-//
-//  Time Complexity : O(d)
-//
-//////////////////////////////////////////////////////////////
+
 
 //////////////////////////////////////////////////////////////
 //  Program12_5
 //
-//  Function Name :     DifferenceSum
-//  Description   :     Finds difference between sum of even and odd digits.
-//  Input         :     Integer
-//  Output        :     Integer (Difference)
+//  Function Name :     is_divisible_by_five
+//  Description   :     Checks whether the given integer is divisible by 5.
+//  Input         :     Integer (number)
+//  Output        :     Displays "Yes" if divisible by 5, otherwise "No"
+//  Return Value  :     Boolean (true if divisible by 5, false otherwise)
 //
-//////////////////////////////////////////////////////////////
+//  Example:
+//  Input : 25
+//  Output : Yes
 //
-//  Input : 1018
-//  Output : 6
+//  Input : 13
+//  Output : No
 //
-//  Time Complexity : O(d)
+//  Input : -20
+//  Output : Yes
 //
+//  Time Complexity : O(1)
 //////////////////////////////////////////////////////////////
 
 
-# Assignment 13 – Looping and Range-Based Operations
-**Description:** Range-based and digit-analysis programs with loop control.
+# Assignment 13 – Number Pattern and Summation Programs
+**Description:** Programs focusing on generating numeric patterns and calculating sums using loops and mathematical formulas. These exercises strengthen understanding of number sequences, loop optimization, and time complexity.
 
 //////////////////////////////////////////////////////////////
 //  Program13_1
 //
-//  Function Name :     CountEvenDigits
-//  Description   :     Counts even digits in a number.
-//  Input         :     Integer
-//  Output        :     Integer (Count)
+//  Function Name :     print_numbers
+//  Description   :     Prints numbers from 1 up to the given limit.
+//  Input         :     Integer (limit)
+//  Output        :     Prints all numbers from 1 to limit
+//  Return Value  :     None
 //
+//  Example:
+//  Input : 5
+//  Output : 1 2 3 4 5
+//
+//  Input : 0
+//  Output : No numbers to print
+//
+//  Input : -3
+//  Output : No numbers to print
+//
+//  Time Complexity : O(n)
 //////////////////////////////////////////////////////////////
-//
-//  Input : 2468
-//  Output : 4
-//
-//  Time Complexity : O(d)
-//
-//////////////////////////////////////////////////////////////
+
 
 //////////////////////////////////////////////////////////////
 //  Program13_2
 //
-//  Function Name :     CountOddDigits
-//  Description   :     Counts odd digits in given number.
-//  Input         :     Integer
-//  Output        :     Integer (Count)
+//  Function Name :     print_even_numbers
+//  Description   :     Prints all even numbers up to the given limit.
+//  Input         :     Integer (limit)
+//  Output        :     Prints even numbers from 2 to limit
+//  Return Value  :     None
 //
+//  Example:
+//  Input : 10
+//  Output : 2 4 6 8 10
+//
+//  Input : 7
+//  Output : 2 4 6
+//
+//  Input : 1
+//  Output : No even numbers
+//
+//  Time Complexity : O(n/2) ≈ O(n)
 //////////////////////////////////////////////////////////////
-//
-//  Input : 2395
-//  Output : 3
-//
-//  Time Complexity : O(d)
-//
-//////////////////////////////////////////////////////////////
+
 
 //////////////////////////////////////////////////////////////
 //  Program13_3
 //
-//  Function Name :     CountDigitsRange
-//  Description   :     Counts digits between range 3–7 inclusive.
-//  Input         :     Integer
-//  Output        :     Integer (Count)
+//  Function Name :     print_odd_numbers
+//  Description   :     Prints all odd numbers up to the given limit.
+//  Input         :     Integer (limit)
+//  Output        :     Prints odd numbers from 1 to limit
+//  Return Value  :     None
 //
+//  Example:
+//  Input : 10
+//  Output : 1 3 5 7 9
+//
+//  Input : 7
+//  Output : 1 3 5 7
+//
+//  Input : 0
+//  Output : No odd numbers
+//
+//  Time Complexity : O(n/2) ≈ O(n)
 //////////////////////////////////////////////////////////////
-//
-//  Input : 8641
-//  Output : 1
-//
-//  Time Complexity : O(d)
-//
-//////////////////////////////////////////////////////////////
+
 
 //////////////////////////////////////////////////////////////
 //  Program13_4
 //
-//  Function Name :     ProductOfDigits
-//  Description   :     Computes product of digits in given number.
-//  Input         :     Integer
-//  Output        :     Integer (Product)
+//  Function Name :     sum_natural_numbers
+//  Description   :     Calculates and returns the sum of all natural numbers 
+//                      from 1 up to the given limit using a mathematical formula.
+//  Input         :     Integer (limit)
+//  Output        :     Integer (sum of natural numbers)
+//  Return Value  :     0 if limit is non-positive
 //
-//////////////////////////////////////////////////////////////
+//  Example:
+//  Input : 10
+//  Output : 55
 //
-//  Input : 105
+//  Input : 5
+//  Output : 15
+//
+//  Input : -3
 //  Output : 0
 //
-//  Time Complexity : O(d)
-//
+//  Time Complexity : O(1)
 //////////////////////////////////////////////////////////////
+
 
 //////////////////////////////////////////////////////////////
 //  Program13_5
 //
-//  Function Name :     DifferenceEvenOddSum
-//  Description   :     Finds difference between sum of even and odd digits.
-//  Input         :     Integer
-//  Output        :     Integer (Difference)
+//  Function Name :     sum_even_numbers
+//  Description   :     Calculates and returns the sum of the first N even numbers 
+//                      using a mathematical formula.
+//  Input         :     Integer (limit)
+//  Output        :     Integer (sum of even numbers)
+//  Return Value  :     0 if limit is non-positive
 //
-//////////////////////////////////////////////////////////////
+//  Example:
+//  Input : 5
+//  Output : 30   // (2 + 4 + 6 + 8 + 10)
 //
-//  Input : 2395
-//  Output : -15
+//  Input : 10
+//  Output : 110  // (2 + 4 + ... + 20)
 //
-//  Time Complexity : O(d)
+//  Input : -3
+//  Output : 0
 //
+//  Formula Used : Sum = N × (N + 1)
+//  Time Complexity : O(1)
 //////////////////////////////////////////////////////////////
 
 
-# Assignment 14 – Looping and Conditional Constructs
-**Description:** Advanced looping and arithmetic difference programs.
+
+# Assignment 14 – Looping & Logic Program Summary
+**Description:** Programs based on digit-wise operations such as displaying digits, checking for specific digits, and counting digits under certain conditions. These exercises focus on modular arithmetic, control flow, and loop-based digit processing.
 
 //////////////////////////////////////////////////////////////
 //  Program14_1
 //
-//  Function Name :     CountEvenDigits
-//  Description   :     Counts total even digits in number.
-//  Input         :     Integer
-//  Output        :     Integer (Count)
+//  Function Name :     DisplayDigit
+//  Description   :     Displays each digit of the given number in reverse order.
+//  Input         :     Integer (number)
+//  Output        :     Prints each digit of the entered number on a new line
+//  Return Value  :     None
 //
+//  Example:
+//  Input : 2395
+//  Output : 
+//  5
+//  9
+//  3
+//  2
+//
+//  Input : 1018
+//  Output : 
+//  8
+//  1
+//  0
+//  1
+//
+//  Input : 0
+//  Output : 0
+//
+//  Time Complexity : O(d), where d = number of digits
 //////////////////////////////////////////////////////////////
-//
-//  Input : 2468
-//  Output : 4
-//
-//  Time Complexity : O(d)
-//
-//////////////////////////////////////////////////////////////
+
 
 //////////////////////////////////////////////////////////////
 //  Program14_2
 //
-//  Function Name :     CountOddDigits
-//  Description   :     Counts total odd digits in number.
-//  Input         :     Integer
-//  Output        :     Integer (Count)
+//  Function Name :     ChkZero
+//  Description   :     Checks whether the given number contains the digit zero (0).
+//  Input         :     Integer (number)
+//  Output        :     Displays whether zero is present or not
+//  Return Value  :     TRUE  - if the number contains zero
+//                      FALSE - otherwise
 //
-//////////////////////////////////////////////////////////////
-//
+//  Example:
 //  Input : 2395
-//  Output : 3
+//  Output : There is no Zero
 //
-//  Time Complexity : O(d)
+//  Input : 1018
+//  Output : It Contains Zero
 //
+//  Input : 9000
+//  Output : It Contains Zero
+//
+//  Input : -908
+//  Output : It Contains Zero
+//
+//  Time Complexity : O(d), where d = number of digits
 //////////////////////////////////////////////////////////////
+
 
 //////////////////////////////////////////////////////////////
 //  Program14_3
 //
-//  Function Name :     CountRangeDigits
-//  Description   :     Counts digits between range 3 and 7 inclusive.
-//  Input         :     Integer
-//  Output        :     Integer (Count)
+//  Function Name :     CountTwo
+//  Description   :     Counts the total number of digit '2' present in the given number.
+//  Input         :     Integer (number)
+//  Output        :     Integer (count of 2's in the number)
+//  Return Value  :     Integer (count of occurrences of digit 2)
 //
-//////////////////////////////////////////////////////////////
-//
-//  Input : 8641
+//  Example:
+//  Input : 2395
 //  Output : 1
 //
-//  Time Complexity : O(d)
+//  Input : 1018
+//  Output : 0
 //
+//  Input : 9000
+//  Output : 0
+//
+//  Input : 922432
+//  Output : 3
+//
+//  Time Complexity : O(d), where d = number of digits
 //////////////////////////////////////////////////////////////
+
 
 //////////////////////////////////////////////////////////////
 //  Program14_4
 //
-//  Function Name :     MultiplyDigits
-//  Description   :     Returns product of all digits in a number.
-//  Input         :     Integer
-//  Output        :     Integer (Product)
+//  Function Name :     CountFour
+//  Description   :     Counts the total number of digit '4' present in the given number.
+//  Input         :     Integer (number)
+//  Output        :     Integer (count of 4's in the number)
+//  Return Value  :     Integer (count of occurrences of digit 4)
 //
-//////////////////////////////////////////////////////////////
-//
+//  Example:
 //  Input : 2395
-//  Output : 270
+//  Output : 0
 //
-//  Time Complexity : O(d)
+//  Input : 9440
+//  Output : 2
 //
+//  Input : 922432
+//  Output : 1
+//
+//  Input : 0
+//  Output : 0
+//
+//  Time Complexity : O(d), where d = number of digits
 //////////////////////////////////////////////////////////////
+
 
 //////////////////////////////////////////////////////////////
 //  Program14_5
 //
-//  Function Name :     DifferenceEvenOddSum
-//  Description   :     Calculates difference between sum of even and odd digits.
-//  Input         :     Integer
-//  Output        :     Integer (Difference)
+//  Function Name :     Count
+//  Description   :     Counts how many digits in the given number are less than 6.
+//  Input         :     Integer (number)
+//  Output        :     Integer (count of digits less than 6)
+//  Return Value  :     Integer (count of digits < 6)
 //
-//////////////////////////////////////////////////////////////
-//
+//  Example:
 //  Input : 2395
-//  Output : -15
+//  Output : 3
 //
-//  Time Complexity : O(d)
+//  Input : 1018
+//  Output : 4
 //
+//  Input : 9440
+//  Output : 3
+//
+//  Input : 96672
+//  Output : 1
+//
+//  Time Complexity : O(d), where d = number of digits
 //////////////////////////////////////////////////////////////
 
 
-# Assignment 15 – Looping and Logic Program Summary
-**Description:** Final logic-building programs focusing on digit-based computation.
+
+# Assignment 15 – Looping & Logic Program Summary
+**Description:** Programs based on digit-wise logic and mathematical operations such as counting even/odd digits, finding digits in a range, multiplying digits, and calculating differences between digit sums. These exercises strengthen understanding of modular arithmetic, conditional logic, and iterative processing using loops.
+
+//////////////////////////////////////////////////////////////
+//
+//  Assignment :        15
+//  Description :       Looping & Logic Program Summary
+//
+//////////////////////////////////////////////////////////////
+
 
 //////////////////////////////////////////////////////////////
 //  Program15_1
 //
 //  Function Name :     CountEven
-//  Description   :     Counts total number of even digits present in entered number.
-//  Input         :     Integer
-//  Output        :     Integer (Count of even digits)
+//  Description   :     Counts the total number of even digits present in the entered number.
+//  Input         :     Integer (number)
+//  Output        :     Integer (count of even digits)
+//  Return Value  :     Integer (count of even digits)
 //
-//////////////////////////////////////////////////////////////
-//
+//  Example:
 //  Input : 2395
 //  Output : 1
 //
 //  Input : 2468
 //  Output : 4
 //
-//  Time Complexity : O(d)
+//  Input : 0
+//  Output : 1
 //
+//  Time Complexity : O(d), where d = number of digits
 //////////////////////////////////////////////////////////////
+
 
 //////////////////////////////////////////////////////////////
 //  Program15_2
 //
 //  Function Name :     CountOdd
-//  Description   :     Counts total number of odd digits present in entered number.
-//  Input         :     Integer
-//  Output        :     Integer (Count of odd digits)
+//  Description   :     Counts the total number of odd digits present in the entered number.
+//  Input         :     Integer (number)
+//  Output        :     Integer (count of odd digits)
+//  Return Value  :     Integer (count of odd digits)
 //
-//////////////////////////////////////////////////////////////
-//
+//  Example:
 //  Input : 2395
 //  Output : 3
 //
 //  Input : 2468
 //  Output : 0
 //
-//  Time Complexity : O(d)
+//  Input : 0
+//  Output : 0
 //
+//  Time Complexity : O(d), where d = number of digits
 //////////////////////////////////////////////////////////////
+
 
 //////////////////////////////////////////////////////////////
 //  Program15_3
 //
 //  Function Name :     CountRange
-//  Description   :     Counts how many digits are between 3 and 7 inclusive.
-//  Input         :     Integer
-//  Output        :     Integer (Count)
+//  Description   :     Counts how many digits in the given number are between 3 and 7 (inclusive).
+//  Input         :     Integer (number)
+//  Output        :     Integer (count of digits between 3 and 7)
+//  Return Value  :     Integer (count of digits in range 3–7)
 //
-//////////////////////////////////////////////////////////////
-//
+//  Example:
 //  Input : 2395
 //  Output : 2
 //
 //  Input : 8641
 //  Output : 1
 //
-//  Time Complexity : O(d)
+//  Input : 97253
+//  Output : 3
 //
+//  Time Complexity : O(d), where d = number of digits
 //////////////////////////////////////////////////////////////
+
 
 //////////////////////////////////////////////////////////////
 //  Program15_4
 //
 //  Function Name :     MultDigits
-//  Description   :     Calculates product of all digits in entered number.
-//  Input         :     Integer
-//  Output        :     Integer (Product)
+//  Description   :     Calculates the product of all digits present in the entered number.
+//  Input         :     Integer (number)
+//  Output        :     Integer (product of digits)
+//  Return Value  :     Integer (product of digits)
 //
-//////////////////////////////////////////////////////////////
-//
+//  Example:
 //  Input : 2395
 //  Output : 270
 //
 //  Input : 105
 //  Output : 0
 //
-//  Time Complexity : O(d)
+//  Input : 940
+//  Output : 0
 //
+//  Input : 123
+//  Output : 6
+//
+//  Time Complexity : O(d), where d = number of digits
 //////////////////////////////////////////////////////////////
+
 
 //////////////////////////////////////////////////////////////
 //  Program15_5
 //
 //  Function Name :     CountDiff
-//  Description   :     Calculates difference between sum of even and odd digits.
-//  Input         :     Integer
-//  Output        :     Integer (Difference)
+//  Description   :     Calculates the difference between the sum of even digits
+//                      and the sum of odd digits in the entered number.
+//  Input         :     Integer (number)
+//  Output        :     Integer (difference between even and odd digit sums)
+//  Return Value  :     Integer (difference = sum_even - sum_odd)
 //
-//////////////////////////////////////////////////////////////
-//
+//  Example:
 //  Input : 2395
 //  Output : -15
 //
 //  Input : 1018
 //  Output : 6
 //
-//  Time Complexity : O(d)
+//  Input : 9440
+//  Output : 17
 //
+//  Input : 0
+//  Output : 0
+//
+//  Time Complexity : O(d), where d = number of digits
 //////////////////////////////////////////////////////////////
-

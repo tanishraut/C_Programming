@@ -5,7 +5,7 @@
 //  Author Name :       Tanish Tanaji Raut
 //  Batch       :       LB 47
 //  RID         :       367
-//  Description :       Combined summary of C Logic Building Assignments.
+//  Description :       Soummary of C Logic Building Assignments.
 //
 //////////////////////////////////////////////////////////////
 

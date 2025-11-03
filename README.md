@@ -10,37 +10,47 @@
 //////////////////////////////////////////////////////////////
 
 
-# Assignment 1 – Basic I/O and Introduction to Loops
-**Description:** Programs covering simple input/output and basic looping concepts.
+# Assignment 1 – Conditions and Loops
+**Description:** Programs covering simple input/output operations and basic looping or conditional logic, depending on the code.
+
+//////////////////////////////////////////////////////////////
+//
+//  Author Name :       Tanish Tanaji Raut
+//  Assignment :        1
+//  Description :       Basic Input / Output and Introduction to Loops
+//
+//////////////////////////////////////////////////////////////
+
 
 //////////////////////////////////////////////////////////////
 //  Program1_1
 //
 //  Function Name :     Divide
 //  Description   :     Divides two numbers and returns the result.
-//  Input         :     Integer, Integer
-//  Output        :     Integer (Result of division)
+//  Input         :     Integer iNo1, Integer iNo2
+//  Output        :     Integer (quotient) or -1 if divisor is zero
 //
 //////////////////////////////////////////////////////////////
 //
-//  Input : 15 5
-//  Output : 3
+//  Input:  iNo1 = 15, iNo2 = 5
+//  Output: Division is 3
 //
 //  Time Complexity : O(1)
 //
 //////////////////////////////////////////////////////////////
+
 
 //////////////////////////////////////////////////////////////
 //  Program1_2
 //
 //  Function Name :     Display
-//  Description   :     Prints "Marvellous" five times on the screen.
+//  Description   :     Prints “Marvellous” five times using a for loop.
 //  Input         :     None
-//  Output        :     Text output
+//  Output        :     String displayed multiple times
 //
 //////////////////////////////////////////////////////////////
 //
-//  Output :
+//  Output:
 //  Marvellous
 //  Marvellous
 //  Marvellous
@@ -50,857 +60,955 @@
 //  Time Complexity : O(n)
 //
 //////////////////////////////////////////////////////////////
+
 
 //////////////////////////////////////////////////////////////
 //  Program1_3
 //
-//  Function Name :     DisplayReverse
-//  Description   :     Displays numbers from 5 to 1.
+//  Function Name :     Display
+//  Description   :     Prints numbers from 5 down to 1 using a while loop.
 //  Input         :     None
-//  Output        :     Numbers in reverse order
+//  Output        :     Sequence of integers
 //
 //////////////////////////////////////////////////////////////
 //
-//  Output : 5 4 3 2 1
+//  Output:
+//  5
+//  4
+//  3
+//  2
+//  1
 //
 //  Time Complexity : O(n)
 //
 //////////////////////////////////////////////////////////////
 
+
 //////////////////////////////////////////////////////////////
 //  Program1_4
 //
-//  Function Name :     CheckDivisibleBy5
-//  Description   :     Checks whether a number is divisible by 5.
+//  Function Name :     Check
+//  Description   :     Accepts a number and checks if it is divisible by 5.
 //  Input         :     Integer
-//  Output        :     Boolean result
+//  Output        :     Boolean result (true/false as text output)
 //
 //////////////////////////////////////////////////////////////
 //
-//  Input : 25
-//  Output : True
+//  Input:  Enter Number : 25
+//  Output: Divisible by 5
+//
+//  Input:  Enter Number : 13
+//  Output: Not Divisible by 5
 //
 //  Time Complexity : O(1)
 //
 //////////////////////////////////////////////////////////////
 
+
 //////////////////////////////////////////////////////////////
 //  Program1_5
 //
-//  Function Name :     DisplayStars
-//  Description   :     Prints "*" symbol given number of times.
-//  Input         :     Integer
-//  Output        :     Pattern of stars
+//  Function Name :     Accept
+//  Description   :     Accepts one number and prints that many '*' symbols.
+//  Input         :     Integer (count of stars)
+//  Output        :     Star pattern
 //
 //////////////////////////////////////////////////////////////
 //
-//  Input : 5
-//  Output : * * * * *
+//  Input: 5
+//  Output: *****
 //
 //  Time Complexity : O(n)
 //
 //////////////////////////////////////////////////////////////
 
 
-# Assignment 2 – While Loop & Conditional Logic
-**Description:** Focused on updater logic, while loops, and basic decision-making.
+
+# Assignment 2 – Loops and Conditional Programs
+**Description:** Programs based on basic loops, conditional statements, and simple user input handling.
+
 
 //////////////////////////////////////////////////////////////
 //  Program2_1
 //
 //  Function Name :     Display
-//  Description   :     Displays a pattern using while loop.
-//  Input         :     Integer
-//  Output        :     Repeated message
+//  Description   :     Accepts a number from user and prints that number of '*' on screen.
+//  Input         :     Integer (count)
+//  Output        :     Sequence of '*' characters
 //
 //////////////////////////////////////////////////////////////
 //
-//  Input : 5
-//  Output : Marvellous (5 times)
+//  Input: 5
+//  Output: *****
 //
 //  Time Complexity : O(n)
 //
 //////////////////////////////////////////////////////////////
+
 
 //////////////////////////////////////////////////////////////
 //  Program2_2
 //
-//  Function Name :     DisplayEven
-//  Description   :     Displays all even numbers up to N.
+//  Function Name :     Display
+//  Description   :     Prints '*' repeatedly while decrementing the counter until it reaches zero.
 //  Input         :     Integer
-//  Output        :     Series of even numbers
+//  Output        :     Sequence of '*' characters
 //
 //////////////////////////////////////////////////////////////
 //
-//  Input : 10
-//  Output : 2 4 6 8 10
+//  Input: 4
+//  Output: ****
 //
 //  Time Complexity : O(n)
 //
 //////////////////////////////////////////////////////////////
+
 
 //////////////////////////////////////////////////////////////
 //  Program2_3
 //
-//  Function Name :     DisplayOdd
-//  Description   :     Displays all odd numbers up to N.
+//  Function Name :     Display
+//  Description   :     Prints “Hello” if the entered number is less than 10,
+//                      otherwise prints “Demo”.
 //  Input         :     Integer
-//  Output        :     Series of odd numbers
+//  Output        :     Text ("Hello" or "Demo")
 //
 //////////////////////////////////////////////////////////////
 //
-//  Input : 10
-//  Output : 1 3 5 7 9
+//  Input: 5
+//  Output: Hello
+//
+//  Input: 12
+//  Output: Demo
+//
+//  Time Complexity : O(1)
+//
+//////////////////////////////////////////////////////////////
+
+
+//////////////////////////////////////////////////////////////
+//  Program2_4
+//
+//  Function Name :     Display
+//  Description   :     Accepts two numbers and prints the first number
+//                      as many times as the value of the second number.
+//  Input         :     Two integers (iNo, iFrequency)
+//  Output        :     Sequence of the first number repeated
+//
+//////////////////////////////////////////////////////////////
+//
+//  Input: 12 5
+//  Output: 12 12 12 12 12
+//
+//  Input: -2 3
+//  Output: -2 -2 -2
 //
 //  Time Complexity : O(n)
 //
 //////////////////////////////////////////////////////////////
 
+
 //////////////////////////////////////////////////////////////
-//  Program2_4
+//  Program2_5
+//
+//  Function Name :     ChkEven
+//  Description   :     Checks whether the entered number is even or odd.
+//  Input         :     Integer
+//  Output        :     String ("Even" or "Odd")
+//
+//////////////////////////////////////////////////////////////
+//
+//  Input: 8
+//  Output: Even
+//
+//  Input: 13
+//  Output: Odd
+//
+//  Time Complexity : O(1)
+//
+//////////////////////////////////////////////////////////////
+
+
+
+# Assignment 3 – Looping & Factor Programs
+**Description:** Programs based on printing number patterns, printing factors of a number, checking character properties, and applying simple logic conditions.
+
+//////////////////////////////////////////////////////////////
+//  Program3_1
+//
+//  Function Name :     PrintEven
+//  Description   :     Prints first N even numbers on screen.
+//  Input         :     Integer (count)
+//  Output        :     Sequence of even numbers
+//
+//////////////////////////////////////////////////////////////
+//
+//  Input : 7
+//  Output : 2 4 6 8 10 12 14
+//
+//  Time Complexity : O(n)
+//
+//////////////////////////////////////////////////////////////
+
+
+//////////////////////////////////////////////////////////////
+//  Program3_2
+//
+//  Function Name :     DisplayFactor
+//  Description   :     Displays even factors (including 1) of a number.
+//  Input         :     Integer
+//  Output        :     Even factors + 1
+//
+//////////////////////////////////////////////////////////////
+//
+//  Input : 24
+//  Output : 1 2 4 6 8 12
+//
+//  Time Complexity : O(n)
+//
+//////////////////////////////////////////////////////////////
+
+
+//////////////////////////////////////////////////////////////
+//  Program3_3
+//
+//  Function Name :     DisplayEvenFactor
+//  Description   :     Displays only even factors of a number.
+//  Input         :     Integer
+//  Output        :     Even factors
+//
+//////////////////////////////////////////////////////////////
+//
+//  Input : 36
+//  Output : 2 4 6 12 18 36
+//
+//  Time Complexity : O(n)
+//
+//////////////////////////////////////////////////////////////
+
+
+//////////////////////////////////////////////////////////////
+//  Program3_4
+//
+//  Function Name :     DisplayConvert
+//  Description   :     Converts uppercase letters to lowercase and vice versa.
+//  Input         :     Character
+//  Output        :     Converted character
+//
+//////////////////////////////////////////////////////////////
+//
+//  Input : a
+//  Output : A
+//
+//  Input : D
+//  Output : d
+//
+//  Time Complexity : O(1)
+//
+//////////////////////////////////////////////////////////////
+
+
+//////////////////////////////////////////////////////////////
+//  Program3_5
+//
+//  Function Name :     ChkVowel
+//  Description   :     Checks whether the entered character is a vowel or not.
+//  Input         :     Character
+//  Output        :     TRUE / FALSE (displayed as text)
+//
+//////////////////////////////////////////////////////////////
+//
+//  Input : E
+//  Output : It is Vowel
+//
+//  Input : d
+//  Output : It is not Vowel
+//
+//  Time Complexity : O(1)
+//
+//////////////////////////////////////////////////////////////
+
+
+# Assignment 4 – Factor and Non-Factor Programs
+**Description:** Programs that deal with identifying, summing, multiplying, and comparing factors and non-factors of a given number using looping and conditional logic.
+
+//////////////////////////////////////////////////////////////
+//  Program4_1
+//
+//  Function Name :     MultFact
+//  Description   :     Calculates the multiplication of all factors of a given number.
+//  Input         :     Integer
+//  Output        :     Integer (product of all factors)
+//
+//////////////////////////////////////////////////////////////
+//
+//  Input : 12
+//  Output : 144
+//
+//  Input : 13
+//  Output : 1
+//
+//  Input : 10
+//  Output : 10
+//
+//  Time Complexity : O(n)
+//
+//////////////////////////////////////////////////////////////
+
+
+//////////////////////////////////////////////////////////////
+//  Program4_2
+//
+//  Function Name :     Display
+//  Description   :     Displays all factors of a given number in decreasing order.
+//  Input         :     Integer
+//  Output        :     List of factors in reverse order
+//
+//////////////////////////////////////////////////////////////
+//
+//  Input : 12
+//  Output : 6 4 3 2 1
+//
+//  Input : 10
+//  Output : 5 2 1
+//
+//  Time Complexity : O(n)
+//
+//////////////////////////////////////////////////////////////
+
+
+//////////////////////////////////////////////////////////////
+//  Program4_3
+//
+//  Function Name :     NonFactor
+//  Description   :     Displays all non-factors of the given number.
+//  Input         :     Integer
+//  Output        :     Sequence of non-factors
+//
+//////////////////////////////////////////////////////////////
+//
+//  Input : 12
+//  Output : 5 7 8 9 10 11
+//
+//  Input : 10
+//  Output : 3 4 6 7 8 9
+//
+//  Time Complexity : O(n)
+//
+//////////////////////////////////////////////////////////////
+
+
+//////////////////////////////////////////////////////////////
+//  Program4_4
+//
+//  Function Name :     SumNonFact
+//  Description   :     Calculates the summation of all non-factors of a given number.
+//  Input         :     Integer
+//  Output        :     Integer (sum of all non-factors)
+//
+//////////////////////////////////////////////////////////////
+//
+//  Input : 12
+//  Output : 50
+//
+//  Input : 10
+//  Output : 37
+//
+//  Time Complexity : O(n)
+//
+//////////////////////////////////////////////////////////////
+
+
+//////////////////////////////////////////////////////////////
+//  Program4_5
+//
+//  Function Name :     Fdiff
+//  Description   :     Calculates the difference between the sum of all factors
+//                      and the sum of all non-factors of the given number.
+//  Input         :     Integer
+//  Output        :     Integer (difference between sums)
+//
+//////////////////////////////////////////////////////////////
+//
+//  Input : 12
+//  Output : -34
+//
+//  Input : 10
+//  Output : -29
+//
+//  Time Complexity : O(n)
+//
+//////////////////////////////////////////////////////////////
+
+
+# Assignment 5 – Conditional and Comparison Programs
+**Description:** Programs focusing on conditional statements, comparison logic, and decision-making using if-else constructs.
+
+//////////////////////////////////////////////////////////////
+//  Program5_1
 //
 //  Function Name :     CheckEvenOdd
-//  Description   :     Checks whether a number is even or odd.
+//  Description   :     Checks whether the entered number is even or odd.
 //  Input         :     Integer
-//  Output        :     String result ("Even"/"Odd")
+//  Output        :     Displays “Even” or “Odd”
 //
 //////////////////////////////////////////////////////////////
 //
 //  Input : 8
 //  Output : Even
 //
-//  Time Complexity : O(1)
-//
-//////////////////////////////////////////////////////////////
-
-//////////////////////////////////////////////////////////////
-//  Program2_5
-//
-//  Function Name :     DisplayRange
-//  Description   :     Displays numbers from 1 to N using a while loop.
-//  Input         :     Integer
-//  Output        :     Numbers in range
-//
-//////////////////////////////////////////////////////////////
-//
-//  Input : 5
-//  Output : 1 2 3 4 5
-//
-//  Time Complexity : O(n)
-//
-//////////////////////////////////////////////////////////////
-
-
-# Assignment 3 – Functions and Character Handling
-**Description:** Introduces user-defined functions and basic character operations.
-
-//////////////////////////////////////////////////////////////
-//  Program3_1
-//
-//  Function Name :     PrintEven
-//  Description   :     Prints first N even numbers.
-//  Input         :     Integer
-//  Output        :     Series of even numbers
-//
-//////////////////////////////////////////////////////////////
-//
-//  Input : 5
-//  Output : 2 4 6 8 10
-//
-//  Time Complexity : O(n)
-//
-//////////////////////////////////////////////////////////////
-
-//////////////////////////////////////////////////////////////
-//  Program3_2
-//
-//  Function Name :     DisplayFactors
-//  Description   :     Displays even factors of given number.
-//  Input         :     Integer
-//  Output        :     List of even factors
-//
-//////////////////////////////////////////////////////////////
-//
-//  Input : 12
-//  Output : 2 4 6 12
-//
-//  Time Complexity : O(n)
-//
-//////////////////////////////////////////////////////////////
-
-//////////////////////////////////////////////////////////////
-//  Program3_3
-//
-//  Function Name :     ToggleCase
-//  Description   :     Converts uppercase character to lowercase and vice versa.
-//  Input         :     Character
-//  Output        :     Character
-//
-//////////////////////////////////////////////////////////////
-//
-//  Input : 'A'
-//  Output : 'a'
-//
-//  Time Complexity : O(1)
-//
-//////////////////////////////////////////////////////////////
-
-//////////////////////////////////////////////////////////////
-//  Program3_4
-//
-//  Function Name :     CheckVowel
-//  Description   :     Checks whether the given character is a vowel.
-//  Input         :     Character
-//  Output        :     Boolean
-//
-//////////////////////////////////////////////////////////////
-//
-//  Input : 'E'
-//  Output : True
-//
-//  Time Complexity : O(1)
-//
-//////////////////////////////////////////////////////////////
-
-//////////////////////////////////////////////////////////////
-//  Program3_5
-//
-//  Function Name :     DisplayASCII
-//  Description   :     Displays ASCII value of given character.
-//  Input         :     Character
-//  Output        :     Integer (ASCII value)
-//
-//////////////////////////////////////////////////////////////
-//
-//  Input : 'A'
-//  Output : 65
-//
-//  Time Complexity : O(1)
-//
-//////////////////////////////////////////////////////////////
-
-
-# Assignment 4 – Factors and Non-Factors
-**Description:** Programs focused on factors, multiples, and number theory.
-
-//////////////////////////////////////////////////////////////
-//  Program4_1
-//
-//  Function Name :     DisplayFactors
-//  Description   :     Displays all factors of a number.
-//  Input         :     Integer
-//  Output        :     List of factors
-//
-//////////////////////////////////////////////////////////////
-//
-//  Input : 12
-//  Output : 1 2 3 4 6 12
-//
-//  Time Complexity : O(n)
-//
-//////////////////////////////////////////////////////////////
-
-//////////////////////////////////////////////////////////////
-//  Program4_2
-//
-//  Function Name :     SumOfFactors
-//  Description   :     Calculates sum of all factors of a number.
-//  Input         :     Integer
-//  Output        :     Integer (Sum of factors)
-//
-//////////////////////////////////////////////////////////////
-//
-//  Input : 12
-//  Output : 28
-//
-//  Time Complexity : O(n)
-//
-//////////////////////////////////////////////////////////////
-
-//////////////////////////////////////////////////////////////
-//  Program4_3
-//
-//  Function Name :     DisplayNonFactors
-//  Description   :     Displays numbers that are not factors of given number.
-//  Input         :     Integer
-//  Output        :     List of non-factors
-//
-//////////////////////////////////////////////////////////////
-//
-//  Input : 6
-//  Output : 4 5
-//
-//  Time Complexity : O(n)
-//
-//////////////////////////////////////////////////////////////
-
-//////////////////////////////////////////////////////////////
-//  Program4_4
-//
-//  Function Name :     SumNonFactors
-//  Description   :     Returns sum of all non-factors.
-//  Input         :     Integer
-//  Output        :     Integer (Sum of non-factors)
-//
-//////////////////////////////////////////////////////////////
-//
-//  Input : 6
-//  Output : 9
-//
-//  Time Complexity : O(n)
-//
-//////////////////////////////////////////////////////////////
-
-//////////////////////////////////////////////////////////////
-//  Program4_5
-//
-//  Function Name :     FactorDifference
-//  Description   :     Returns difference between sum of factors and non-factors.
-//  Input         :     Integer
-//  Output        :     Integer (Difference value)
-//
-//////////////////////////////////////////////////////////////
-//
-//  Input : 6
-//  Output : -3
-//
-//  Time Complexity : O(n)
-//
-//////////////////////////////////////////////////////////////
-
-
-# Assignment 5 – Decision Making
-**Description:** Covers conditional statements, relational operations, and branching logic.
-
-//////////////////////////////////////////////////////////////
-//  Program5_1
-//
-//  Function Name :     CheckEvenOdd
-//  Description   :     Determines whether number is even or odd.
-//  Input         :     Integer
-//  Output        :     String ("Even" or "Odd")
-//
-//////////////////////////////////////////////////////////////
-//
-//  Input : 7
+//  Input : 13
 //  Output : Odd
 //
 //  Time Complexity : O(1)
 //
 //////////////////////////////////////////////////////////////
 
+
 //////////////////////////////////////////////////////////////
 //  Program5_2
 //
-//  Function Name :     Maximum
-//  Description   :     Returns maximum of two numbers.
-//  Input         :     Integer, Integer
-//  Output        :     Integer
+//  Function Name :     Find
+//  Description   :     Returns the larger of two numbers.
+//  Input         :     Two integers
+//  Output        :     Integer (maximum value)
 //
 //////////////////////////////////////////////////////////////
 //
-//  Input : 10 15
-//  Output : 15
+//  Input : 12 5
+//  Output : 12
+//
+//  Input : 9 20
+//  Output : 20
 //
 //  Time Complexity : O(1)
 //
 //////////////////////////////////////////////////////////////
+
 
 //////////////////////////////////////////////////////////////
 //  Program5_3
 //
 //  Function Name :     CheckLeapYear
-//  Description   :     Determines whether a year is a leap year.
-//  Input         :     Integer
-//  Output        :     Boolean
+//  Description   :     Determines whether the given year is a leap year.
+//  Input         :     Integer (year)
+//  Output        :     Message indicating leap year status
 //
 //////////////////////////////////////////////////////////////
 //
 //  Input : 2024
-//  Output : True
+//  Output : 2024 is a leap year.
+//
+//  Input : 1900
+//  Output : 1900 is not a leap year.
 //
 //  Time Complexity : O(1)
 //
 //////////////////////////////////////////////////////////////
+
 
 //////////////////////////////////////////////////////////////
 //  Program5_4
 //
-//  Function Name :     CheckSign
-//  Description   :     Checks if a number is positive, negative, or zero.
+//  Function Name :     CheckNumberType
+//  Description   :     Checks whether a number is positive, negative, or zero.
 //  Input         :     Integer
-//  Output        :     String
+//  Output        :     Displays the type of number
 //
 //////////////////////////////////////////////////////////////
+//
+//  Input : 7
+//  Output : Positive
 //
 //  Input : -5
 //  Output : Negative
 //
+//  Input : 0
+//  Output : Zero
+//
 //  Time Complexity : O(1)
 //
 //////////////////////////////////////////////////////////////
+
 
 //////////////////////////////////////////////////////////////
 //  Program5_5
 //
-//  Function Name :     LargestOfThree
-//  Description   :     Finds largest among three numbers.
-//  Input         :     Integer, Integer, Integer
-//  Output        :     Integer
+//  Function Name :     FindLargest
+//  Description   :     Finds the largest number among three given numbers.
+//  Input         :     Three integers
+//  Output        :     Largest integer
 //
 //////////////////////////////////////////////////////////////
 //
-//  Input : 10 50 30
-//  Output : 50
+//  Input : 10 20 15
+//  Output : Largest number is: 20
 //
 //  Time Complexity : O(1)
 //
 //////////////////////////////////////////////////////////////
 
 
-# Assignment 6 – Simple Logic and Condition Checking
-**Description:** Programs to strengthen logic through basic arithmetic and relational checks.
+
+# Assignment 6 – Conditional Statements & Logical Programs
+**Description:** Programs focusing on basic condition checking, logical comparisons, and simple arithmetic using if–else constructs. Each program demonstrates core decision-making flow in C.
 
 //////////////////////////////////////////////////////////////
 //  Program6_1
 //
-//  Function Name :     DisplayName
-//  Description   :     Displays a predefined name on the screen.
-//  Input         :     None
-//  Output        :     Text output
+//  Function Name :     main
+//  Description   :     Accepts and prints the user’s name.
+//  Input         :     String
+//  Output        :     Display name entered by user
 //
-//////////////////////////////////////////////////////////////
-//
-//  Output :
-//  Marvellous
+//  Example:
+//  Input:  Tanish Raut
+//  Output: Your name is Tanish Raut
 //
 //  Time Complexity : O(1)
-//
 //////////////////////////////////////////////////////////////
+
 
 //////////////////////////////////////////////////////////////
 //  Program6_2
 //
-//  Function Name :     CheckGreater
-//  Description   :     Checks whether the entered number is greater than 100.
+//  Function Name :     ChkGreater
+//  Description   :     Checks whether a number is greater than 100.
 //  Input         :     Integer
-//  Output        :     Boolean
+//  Output        :     Boolean / Text (“Greater” or “Smaller”)
 //
-//////////////////////////////////////////////////////////////
+//  Example:
+//  Input: 101
+//  Output: Greater
 //
-//  Input : 120
-//  Output : True
+//  Input: 39
+//  Output: Smaller
 //
 //  Time Complexity : O(1)
-//
 //////////////////////////////////////////////////////////////
+
 
 //////////////////////////////////////////////////////////////
 //  Program6_3
 //
-//  Function Name :     CheckEquality
-//  Description   :     Compares two numbers and returns whether they are equal.
-//  Input         :     Integer, Integer
-//  Output        :     Boolean
+//  Function Name :     ChkEqual
+//  Description   :     Checks whether two numbers are equal.
+//  Input         :     Two integers
+//  Output        :     Boolean / Text (“Equal” or “Not Equal”)
 //
-//////////////////////////////////////////////////////////////
+//  Example:
+//  Input: 10 10
+//  Output: Equal
 //
-//  Input : 25 25
-//  Output : True
+//  Input: 10 12
+//  Output: Not Equal
 //
 //  Time Complexity : O(1)
-//
 //////////////////////////////////////////////////////////////
+
 
 //////////////////////////////////////////////////////////////
 //  Program6_4
 //
 //  Function Name :     Multiply
-//  Description   :     Multiplies three given numbers.
-//  Input         :     Integer, Integer, Integer
-//  Output        :     Integer (Product)
+//  Description   :     Calculates product of three numbers, treating 0 as 1.
+//  Input         :     Three integers
+//  Output        :     Integer (product)
 //
-//////////////////////////////////////////////////////////////
+//  Example:
+//  Input: 5 7 4
+//  Output: 140
 //
-//  Input : 2 3 4
-//  Output : 24
+//  Input: 5 0 7
+//  Output: 35
 //
 //  Time Complexity : O(1)
-//
 //////////////////////////////////////////////////////////////
+
 
 //////////////////////////////////////////////////////////////
 //  Program6_5
 //
-//  Function Name :     CalculatePercentage
-//  Description   :     Calculates percentage based on total marks and obtained marks.
-//  Input         :     Float, Float
-//  Output        :     Float (Percentage)
+//  Function Name :     Percentage
+//  Description   :     Calculates percentage based on total and obtained marks.
+//  Input         :     Two integers (total, obtained)
+//  Output        :     Float (percentage value)
 //
-//////////////////////////////////////////////////////////////
-//
-//  Input : 450 500
-//  Output : 90%
+//  Example:
+//  Input: 1000 745
+//  Output: 74.50
 //
 //  Time Complexity : O(1)
-//
 //////////////////////////////////////////////////////////////
 
 
-# Assignment 7 – Loop Patterns and Number Series
-**Description:** Pattern generation and sequence printing using iterative logic.
+# Assignment 7 – Looping and Pattern-Based Programs
+**Description:** Programs demonstrating iterative logic using loops (for, while) and basic pattern or sequence generation. Focuses on understanding iteration control and numerical sequences.
 
 //////////////////////////////////////////////////////////////
 //  Program7_1
 //
-//  Function Name :     DisplayPattern
-//  Description   :     Displays a mixed pattern of '$' and '*' symbols.
-//  Input         :     Integer
-//  Output        :     Printed pattern
+//  Function Name :     Pattern
+//  Description   :     Prints a pattern of '$ *' symbols for a given number.
+//  Input         :     Integer (number of times)
+//  Output        :     Repeated pattern on a single line
 //
-//////////////////////////////////////////////////////////////
-//
+//  Example:
 //  Input : 5
-//  Output : $ * $ * $
+//  Output : $ * $ * $ * $ * $ * 
 //
 //  Time Complexity : O(n)
-//
 //////////////////////////////////////////////////////////////
+
 
 //////////////////////////////////////////////////////////////
 //  Program7_2
 //
-//  Function Name :     DisplayNumbers
-//  Description   :     Displays numbers from 1 to N.
-//  Input         :     Integer
-//  Output        :     Numbers in ascending order
+//  Function Name :     Display
+//  Description   :     Prints numbers from 1 up to the entered number.
+//  Input         :     Integer (limit)
+//  Output        :     Sequential numbers from 1 to N
 //
-//////////////////////////////////////////////////////////////
-//
-//  Input : 5
-//  Output : 1 2 3 4 5
+//  Example:
+//  Input : 8
+//  Output : 1 2 3 4 5 6 7 8
 //
 //  Time Complexity : O(n)
-//
 //////////////////////////////////////////////////////////////
+
 
 //////////////////////////////////////////////////////////////
 //  Program7_3
 //
-//  Function Name :     DisplayRange
-//  Description   :     Displays numbers between -N and N.
-//  Input         :     Integer
-//  Output        :     Sequence from -N to N
+//  Function Name :     Display
+//  Description   :     Prints numbers from -N to N forming a symmetric line.
+//  Input         :     Integer (range limit)
+//  Output        :     Range of numbers from -N to N
 //
-//////////////////////////////////////////////////////////////
-//
-//  Input : 3
-//  Output : -3 -2 -1 0 1 2 3
+//  Example:
+//  Input : 4
+//  Output : -4 -3 -2 -1 0 1 2 3 4
 //
 //  Time Complexity : O(n)
-//
 //////////////////////////////////////////////////////////////
+
 
 //////////////////////////////////////////////////////////////
 //  Program7_4
 //
-//  Function Name :     DisplayOddNumbers
-//  Description   :     Prints all odd numbers up to given limit.
-//  Input         :     Integer
-//  Output        :     Sequence of odd numbers
+//  Function Name :     DisplayOdd
+//  Description   :     Displays all odd numbers up to the entered number.
+//  Input         :     Integer (limit)
+//  Output        :     Sequence of odd numbers up to N
 //
-//////////////////////////////////////////////////////////////
-//
+//  Example:
 //  Input : 10
 //  Output : 1 3 5 7 9
 //
 //  Time Complexity : O(n)
-//
 //////////////////////////////////////////////////////////////
+
 
 //////////////////////////////////////////////////////////////
 //  Program7_5
 //
-//  Function Name :     DisplayMultiples
-//  Description   :     Displays first five multiples of the entered number.
+//  Function Name :     DisplayMulti
+//  Description   :     Prints the first five multiples of the given number.
 //  Input         :     Integer
-//  Output        :     Series of multiples
+//  Output        :     5 multiples of the number
 //
-//////////////////////////////////////////////////////////////
-//
+//  Example:
 //  Input : 4
 //  Output : 4 8 12 16 20
 //
-//  Time Complexity : O(n)
-//
+//  Time Complexity : O(1)
 //////////////////////////////////////////////////////////////
 
 
-# Assignment 8 – Looping and Display Programs
-**Description:** Programs that use loops to compute sums, display sequences, and handle arithmetic logic.
+# Assignment 8 – Conditional and Iterative Number Programs
+**Description:** Programs focusing on numeric evaluation and iteration using conditionals and loops. Covers classification, factorial computation, and multiplication table generation concepts.
 
 //////////////////////////////////////////////////////////////
 //  Program8_1
 //
-//  Function Name :     DisplaySum
-//  Description   :     Displays sum of first N natural numbers.
+//  Function Name :     Number
+//  Description   :     Classifies the given number as “Small”, “Medium”, or “Greatest”
+//                      based on its value range.
 //  Input         :     Integer
-//  Output        :     Integer (Sum)
+//  Output        :     Text message indicating range
 //
+//  Example:
+//  Input : 30
+//  Output : Small
+//
+//  Input : 75
+//  Output : Medium
+//
+//  Input : 150
+//  Output : Greatest
+//
+//  Time Complexity : O(1)
 //////////////////////////////////////////////////////////////
-//
-//  Input : 5
-//  Output : 15
-//
-//  Time Complexity : O(n)
-//
-//////////////////////////////////////////////////////////////
+
 
 //////////////////////////////////////////////////////////////
 //  Program8_2
 //
-//  Function Name :     DisplayEvenSum
-//  Description   :     Calculates sum of all even numbers up to N.
-//  Input         :     Integer
-//  Output        :     Integer
+//  Function Name :     Display
+//  Description   :     Displays the word representation of a single-digit number (0–9).
+//  Input         :     Integer (0–9)
+//  Output        :     Word representation or error message
 //
+//  Example:
+//  Input : 5
+//  Output : Five
+//
+//  Input : 11
+//  Output : Invalid Number
+//
+//  Time Complexity : O(1)
 //////////////////////////////////////////////////////////////
-//
-//  Input : 10
-//  Output : 30
-//
-//  Time Complexity : O(n)
-//
-//////////////////////////////////////////////////////////////
+
 
 //////////////////////////////////////////////////////////////
 //  Program8_3
 //
-//  Function Name :     DisplayOddSum
-//  Description   :     Calculates sum of all odd numbers up to N.
+//  Function Name :     iFact
+//  Description   :     Calculates the factorial of the entered number using iteration.
 //  Input         :     Integer
-//  Output        :     Integer
+//  Output        :     Integer (factorial result)
 //
-//////////////////////////////////////////////////////////////
-//
+//  Example:
 //  Input : 5
-//  Output : 9
+//  Output : 120
+//
+//  Input : 3
+//  Output : 6
 //
 //  Time Complexity : O(n)
-//
 //////////////////////////////////////////////////////////////
+
 
 //////////////////////////////////////////////////////////////
 //  Program8_4
 //
-//  Function Name :     DisplayFactors
-//  Description   :     Prints all factors of a number.
+//  Function Name :     Table
+//  Description   :     Displays the multiplication table of the given number (1 to 10).
 //  Input         :     Integer
-//  Output        :     List of factors
+//  Output        :     10 multiples of the number
 //
+//  Example:
+//  Input : 4
+//  Output : 4 8 12 16 20 24 28 32 36 40
+//
+//  Time Complexity : O(1) – fixed 10 iterations
 //////////////////////////////////////////////////////////////
-//
-//  Input : 10
-//  Output : 1 2 5 10
-//
-//  Time Complexity : O(n)
-//
-//////////////////////////////////////////////////////////////
+
 
 //////////////////////////////////////////////////////////////
 //  Program8_5
 //
-//  Function Name :     DisplayReverseDigits
-//  Description   :     Displays digits of the number in reverse order.
+//  Function Name :     TableRev
+//  Description   :     Displays the multiplication table of the given number in reverse order.
 //  Input         :     Integer
-//  Output        :     Digits reversed
+//  Output        :     10 multiples in reverse sequence
 //
-//////////////////////////////////////////////////////////////
+//  Example:
+//  Input : 4
+//  Output : 40 36 32 28 24 20 16 12 8 4
 //
-//  Input : 2395
-//  Output : 5932
-//
-//  Time Complexity : O(d)
-//
+//  Time Complexity : O(1) – fixed 10 iterations
 //////////////////////////////////////////////////////////////
 
 
-# Assignment 9 – Looping and Factorial Programs
-**Description:** Focuses on looping constructs for mathematical computations.
+# Assignment 9 – Iteration and Mathematical Logic Programs
+**Description:** Programs demonstrating loops, numeric computations, and factorial-based logic using iteration and conditional operations.
 
 //////////////////////////////////////////////////////////////
 //  Program9_1
 //
-//  Function Name :     Factorial
-//  Description   :     Calculates factorial of a number.
-//  Input         :     Integer
-//  Output        :     Integer (Factorial)
+//  Function Name :     Display
+//  Description   :     Prints '*' and '#' symbols on screen N times each.
+//  Input         :     Integer (number of times)
+//  Output        :     Repeated '*' and '#' pattern
 //
-//////////////////////////////////////////////////////////////
-//
+//  Example:
 //  Input : 5
-//  Output : 120
+//  Output : * * * * *  # # # # #
 //
 //  Time Complexity : O(n)
-//
 //////////////////////////////////////////////////////////////
+
 
 //////////////////////////////////////////////////////////////
 //  Program9_2
 //
-//  Function Name :     DisplayFactorialSeries
-//  Description   :     Displays factorials for numbers 1 through N.
-//  Input         :     Integer
-//  Output        :     Sequence of factorial values
+//  Function Name :     DollarToInr
+//  Description   :     Converts a given amount in USD to INR (1 USD = 70 INR).
+//  Input         :     Integer (USD)
+//  Output        :     Integer (INR)
 //
+//  Example:
+//  Input : 10
+//  Output : Value in INR : 700
+//
+//  Input : 0
+//  Output : 0
+//
+//  Time Complexity : O(1)
 //////////////////////////////////////////////////////////////
-//
-//  Input : 5
-//  Output : 1 2 6 24 120
-//
-//  Time Complexity : O(n²)
-//
-//////////////////////////////////////////////////////////////
+
 
 //////////////////////////////////////////////////////////////
 //  Program9_3
 //
-//  Function Name :     CountDigits
-//  Description   :     Counts number of digits in a given number.
+//  Function Name :     iFact
+//  Description   :     Calculates factorial of all even numbers up to N.
 //  Input         :     Integer
-//  Output        :     Integer (Digit count)
+//  Output        :     Integer (product of all even numbers ≤ N)
 //
+//  Example:
+//  Input : 6
+//  Output : 48   (2 × 4 × 6)
+//
+//  Input : 5
+//  Output : 8    (2 × 4)
+//
+//  Time Complexity : O(n)
 //////////////////////////////////////////////////////////////
-//
-//  Input : 1234
-//  Output : 4
-//
-//  Time Complexity : O(d)
-//
-//////////////////////////////////////////////////////////////
+
 
 //////////////////////////////////////////////////////////////
 //  Program9_4
 //
-//  Function Name :     SumOfDigits
-//  Description   :     Calculates sum of digits in a number.
+//  Function Name :     iFact
+//  Description   :     Calculates factorial of all odd numbers up to N.
 //  Input         :     Integer
-//  Output        :     Integer
+//  Output        :     Integer (product of all odd numbers ≤ N)
 //
+//  Example:
+//  Input : 5
+//  Output : 15   (3 × 5)
+//
+//  Input : 6
+//  Output : 15   (3 × 5)
+//
+//  Time Complexity : O(n)
 //////////////////////////////////////////////////////////////
-//
-//  Input : 2395
-//  Output : 19
-//
-//  Time Complexity : O(d)
-//
-//////////////////////////////////////////////////////////////
+
 
 //////////////////////////////////////////////////////////////
 //  Program9_5
 //
-//  Function Name :     ProductOfDigits
-//  Description   :     Calculates product of digits in a number.
+//  Function Name :     DiffEvOd
+//  Description   :     Calculates difference between the factorial of even 
+//                      and odd numbers up to N.
 //  Input         :     Integer
-//  Output        :     Integer
+//  Output        :     Integer (difference of even and odd factorials)
 //
-//////////////////////////////////////////////////////////////
+//  Example:
+//  Input : 5
+//  Output : 33   (48 - 15)
 //
-//  Input : 234
-//  Output : 24
+//  Input : 6
+//  Output : 33   (48 - 15)
 //
-//  Time Complexity : O(d)
-//
+//  Time Complexity : O(n)
 //////////////////////////////////////////////////////////////
 
 
-# Assignment 10 – Looping and Range-Based Calculations
-**Description:** Range and conditional looping examples.
+# Assignment 10 – Unit Conversion and Area Calculation Programs
+**Description:** Programs performing basic mathematical computations such as unit conversions and area calculations using direct formulas and simple arithmetic operations.
 
 //////////////////////////////////////////////////////////////
 //  Program10_1
 //
-//  Function Name :     DisplayRange
-//  Description   :     Displays numbers from start to end range.
-//  Input         :     Integer, Integer
-//  Output        :     Range of numbers
+//  Function Name :     AreaCircle
+//  Description   :     Calculates the area of a circle using its radius.
+//  Input         :     Float (radius)
+//  Output        :     Double (area of circle)
 //
+//  Example:
+//  Input : 5
+//  Output : 78.5000
+//
+//  Formula : π × r × r
+//
+//  Time Complexity : O(1)
 //////////////////////////////////////////////////////////////
-//
-//  Input : 1 5
-//  Output : 1 2 3 4 5
-//
-//  Time Complexity : O(n)
-//
-//////////////////////////////////////////////////////////////
+
 
 //////////////////////////////////////////////////////////////
 //  Program10_2
 //
-//  Function Name :     DisplayEvenRange
-//  Description   :     Displays even numbers in a given range.
-//  Input         :     Integer, Integer
-//  Output        :     Sequence of even numbers
+//  Function Name :     AreaRectangle
+//  Description   :     Calculates the area of a rectangle given its height and width.
+//  Input         :     Two floats (height, width)
+//  Output        :     Double (area of rectangle)
 //
+//  Example:
+//  Input : 5 4
+//  Output : 20.000
+//
+//  Formula : height × width
+//
+//  Time Complexity : O(1)
 //////////////////////////////////////////////////////////////
-//
-//  Input : 10 20
-//  Output : 10 12 14 16 18 20
-//
-//  Time Complexity : O(n)
-//
-//////////////////////////////////////////////////////////////
+
 
 //////////////////////////////////////////////////////////////
 //  Program10_3
 //
-//  Function Name :     DisplayOddRange
-//  Description   :     Displays odd numbers in a given range.
-//  Input         :     Integer, Integer
-//  Output        :     Sequence of odd numbers
+//  Function Name :     Km2Mtr
+//  Description   :     Converts a given distance from kilometers to meters.
+//  Input         :     Float (kilometers)
+//  Output        :     Integer (meters)
 //
+//  Example:
+//  Input : 5
+//  Output : 5000
+//
+//  Formula : kilometers × 1000
+//
+//  Time Complexity : O(1)
 //////////////////////////////////////////////////////////////
-//
-//  Input : 10 20
-//  Output : 11 13 15 17 19
-//
-//  Time Complexity : O(n)
-//
-//////////////////////////////////////////////////////////////
+
 
 //////////////////////////////////////////////////////////////
 //  Program10_4
 //
-//  Function Name :     DisplayDivisibleBy5
-//  Description   :     Displays numbers divisible by 5 in a range.
-//  Input         :     Integer, Integer
-//  Output        :     Numbers divisible by 5
+//  Function Name :     DegreeCelsius
+//  Description   :     Converts temperature from Fahrenheit to Celsius.
+//  Input         :     Float (Fahrenheit)
+//  Output        :     Double (Celsius)
 //
+//  Example:
+//  Input : 98.6
+//  Output : 37.00 Degree Celsius
+//
+//  Formula : (F - 32) × 5/9
+//
+//  Time Complexity : O(1)
 //////////////////////////////////////////////////////////////
-//
-//  Input : 1 25
-//  Output : 5 10 15 20 25
-//
-//  Time Complexity : O(n)
-//
-//////////////////////////////////////////////////////////////
+
 
 //////////////////////////////////////////////////////////////
 //  Program10_5
 //
-//  Function Name :     SumRange
-//  Description   :     Calculates sum of numbers in a range.
-//  Input         :     Integer, Integer
-//  Output        :     Integer (Sum)
+//  Function Name :     SquareMeter
+//  Description   :     Converts area from square feet to square meters.
+//  Input         :     Integer (square feet)
+//  Output        :     Double (square meters)
 //
+//  Example:
+//  Input : 100
+//  Output : 9.290000
+//
+//  Formula : sqFeet × 0.0929
+//
+//  Time Complexity : O(1)
 //////////////////////////////////////////////////////////////
-//
-//  Input : 1 5
-//  Output : 15
-//
-//  Time Complexity : O(n)
-//
-//////////////////////////////////////////////////////////////
+
 
 
 # Assignment 11 – Looping and Number Property Programs

@@ -10,7 +10,7 @@
 //////////////////////////////////////////////////////////////
 
 
-# Assignment – Basic I/O and Introduction to Loops
+# Assignment 1 – Basic I/O and Introduction to Loops
 **Description:** Programs covering simple input/output and basic looping concepts.
 
 //////////////////////////////////////////////////////////////
@@ -102,7 +102,7 @@
 //////////////////////////////////////////////////////////////
 
 
-# Assignment – While Loop & Conditional Logic
+# Assignment 2 – While Loop & Conditional Logic
 **Description:** Focused on updater logic, while loops, and basic decision-making.
 
 //////////////////////////////////////////////////////////////
@@ -191,7 +191,7 @@
 //////////////////////////////////////////////////////////////
 
 
-# Assignment – Functions and Character Handling
+# Assignment 3 – Functions and Character Handling
 **Description:** Introduces user-defined functions and basic character operations.
 
 //////////////////////////////////////////////////////////////
@@ -280,7 +280,7 @@
 //////////////////////////////////////////////////////////////
 
 
-# Assignment – Factors and Non-Factors
+# Assignment 4 – Factors and Non-Factors
 **Description:** Programs focused on factors, multiples, and number theory.
 
 //////////////////////////////////////////////////////////////
@@ -369,7 +369,7 @@
 //////////////////////////////////////////////////////////////
 
 
-# Assignment – Decision Making
+# Assignment 5 – Decision Making
 **Description:** Covers conditional statements, relational operations, and branching logic.
 
 //////////////////////////////////////////////////////////////
@@ -458,7 +458,7 @@
 //////////////////////////////////////////////////////////////
 
 
-# Assignment – Simple Logic and Condition Checking
+# Assignment 6 – Simple Logic and Condition Checking
 **Description:** Programs to strengthen logic through basic arithmetic and relational checks.
 
 //////////////////////////////////////////////////////////////
@@ -547,7 +547,7 @@
 //////////////////////////////////////////////////////////////
 
 
-# Assignment – Loop Patterns and Number Series
+# Assignment 7 – Loop Patterns and Number Series
 **Description:** Pattern generation and sequence printing using iterative logic.
 
 //////////////////////////////////////////////////////////////
@@ -636,7 +636,7 @@
 //////////////////////////////////////////////////////////////
 
 
-# Assignment – Looping and Display Programs
+# Assignment 8 – Looping and Display Programs
 **Description:** Programs that use loops to compute sums, display sequences, and handle arithmetic logic.
 
 //////////////////////////////////////////////////////////////
@@ -725,7 +725,7 @@
 //////////////////////////////////////////////////////////////
 
 
-# Assignment – Looping and Factorial Programs
+# Assignment 9 – Looping and Factorial Programs
 **Description:** Focuses on looping constructs for mathematical computations.
 
 //////////////////////////////////////////////////////////////
@@ -814,7 +814,7 @@
 //////////////////////////////////////////////////////////////
 
 
-# Assignment – Looping and Range-Based Calculations
+# Assignment 10 – Looping and Range-Based Calculations
 **Description:** Range and conditional looping examples.
 
 //////////////////////////////////////////////////////////////
@@ -903,7 +903,7 @@
 //////////////////////////////////////////////////////////////
 
 
-# Assignment – Looping and Number Property Programs
+# Assignment 11 – Looping and Number Property Programs
 **Description:** Programs focused on number manipulation, counting, and conditional logic.
 
 //////////////////////////////////////////////////////////////
@@ -992,7 +992,7 @@
 //////////////////////////////////////////////////////////////
 
 
-# Assignment – Looping and Arithmetic Operations
+# Assignment 12 – Looping and Arithmetic Operations
 **Description:** Iterative solutions for arithmetic tasks and mathematical checks.
 
 //////////////////////////////////////////////////////////////
@@ -1081,7 +1081,7 @@
 //////////////////////////////////////////////////////////////
 
 
-# Assignment – Looping and Range-Based Operations
+# Assignment 13 – Looping and Range-Based Operations
 **Description:** Range-based and digit-analysis programs with loop control.
 
 //////////////////////////////////////////////////////////////
@@ -1170,7 +1170,7 @@
 //////////////////////////////////////////////////////////////
 
 
-# Assignment – Looping and Conditional Constructs
+# Assignment 14 – Looping and Conditional Constructs
 **Description:** Advanced looping and arithmetic difference programs.
 
 //////////////////////////////////////////////////////////////
@@ -1259,7 +1259,7 @@
 //////////////////////////////////////////////////////////////
 
 
-# Assignment – Looping and Logic Program Summary
+# Assignment 15 – Looping and Logic Program Summary
 **Description:** Final logic-building programs focusing on digit-based computation.
 
 //////////////////////////////////////////////////////////////

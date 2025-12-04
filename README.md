@@ -1657,9 +1657,9 @@ Programs based on array elements traversal, counting logic, searching elements, 
 //////////////////////////////////////////////////////////////
 
 
-Assignment 22 – Array Elements Operations (Basic Logic Programs)
+#Assignment 22 – Array Elements Operations (Basic Logic Programs)
 
-Description: Programs based on array elements traversal, counting logic, searching elements, and frequency analysis.
+**Description:** Programs based on array elements traversal, counting logic, searching elements, and frequency analysis.
 
 //////////////////////////////////////////////////////////////
 // Program22_1 

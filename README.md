@@ -1758,7 +1758,7 @@ Programs based on array elements traversal, counting logic, searching elements, 
 //////////////////////////////////////////////////////////////
 
 //////////////////////////////////////////////////////////////
-// Program24_3
+// Program22_4
 //
 // Function Name : Frequency
 // Description : Accepts array elements from user and returns the frequency of number 11 in the array.
@@ -1819,6 +1819,159 @@ Programs based on array elements traversal, counting logic, searching elements, 
 // Number: -3
 // Elements: 0 -3 2 -3 5 -3
 // Output: Frequency of Element -3 in Array Elements: 3
+//
+// Time Complexity : O(n)
+//////////////////////////////////////////////////////////////
+
+#Assignment 23 – Array Searching Operations (Basic Logic Programs)
+**Description :** Programs based on searching array elements, checking presence, and locating first or last occurrences. These exercises strengthen understanding of array traversal, conditional checks, and iterative logic in C.
+
+
+//////////////////////////////////////////////////////////////
+// Program23_1
+//
+// Function Name : Check
+// Description : Accepts array elements and a number, and checks whether the number is present in the array.
+// Input : Integer Array Elements, Integer (Number to check)
+// Output : Boolean (Presence: Present / Not Present)
+//
+//////////////////////////////////////////////////////////////
+//
+// Example:
+//
+// Input: 6
+// Number: 11
+// Elements: 10 21 30 11 50 63
+// Output: 11 is Present in Array
+//
+// Input: 5
+// Number: 7
+// Elements: 1 2 3 4 5
+// Output: 7 is Not Present in Array
+//
+// Input: 0
+// Number: 10
+// Elements:
+// Output: 10 is Not Present in Array
+//
+// Time Complexity : O(n)
+//////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////
+// Program23_2
+//
+// Function Name : FirstOcc
+// Description : Accepts array elements and a number, and returns the index of its first occurrence.
+// Input : Integer Array Elements, Integer (Number to search)
+// Output : Integer (Index of first occurrence, -1 if not found)
+//
+//////////////////////////////////////////////////////////////
+//
+// Example:
+//
+// Input: 6
+// Number: 11
+// Elements: 10 21 30 11 50 63
+// Output: First occurrence of 11 is at index 3
+//
+// Input: 5
+// Number: 7
+// Elements: 1 2 3 4 5
+// Output: First occurrence of 7 is at index 4
+//
+// Input: 4
+// Number: 2
+// Elements: 2 2 2 2
+// Output: First occurrence of 2 is at index 0
+//
+// Input: 3
+// Number: 9
+// Elements: 1 2 3
+// Output: First occurrence of 9 is at index -1
+//
+// Time Complexity : O(n)
+//////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////
+// Program23_3
+//
+// Function Name : LastOcc
+// Description : Accepts array elements and a number, and returns the index of its last occurrence.
+// Input : Integer Array Elements, Integer (Number to search)
+// Output : Integer (Index of last occurrence, -1 if not found)
+//
+//////////////////////////////////////////////////////////////
+// Example:
+//
+// Input: 6
+// Number: 11
+// Elements: 10 21 30 11 50 11
+// Output: Last occurrence of 11 is at index 5
+//
+// Input: 5
+// Number: 7
+// Elements: 1 2 3 4 5
+// Output: Last occurrence of 7 is at index 4
+//
+// Input: 4
+// Number: 2
+// Elements: 2 2 2 2
+// Output: Last occurrence of 2 is at index 3
+//
+// Time Complexity : O(n)
+//////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////
+// Program23_4
+//
+// Function Name : Display
+// Description : Accepts array elements and a range, and displays elements within that range.
+// Input : Integer Array Elements, Integer Start, Integer End
+// Output : Integer (Elements within the range)
+//
+//////////////////////////////////////////////////////////////
+// Example:
+//
+// Input: 6
+// Start: 10, End: 30
+// Elements: 5 12 18 25 35 40
+// Output: 12 18 25
+//
+// Input: 5
+// Start: 0, End: 5
+// Elements: 1 2 3 4 5
+// Output: 1 2 3 4 5
+//
+// Input: 4
+// Start: 50, End: 60
+// Elements: 10 20 30 40
+// Output:
+//
+// Time Complexity : O(n)
+//////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////
+// Program23_5
+//
+// Function Name : Product
+// Description : Accepts array elements and returns the product of all odd elements.
+// Input : Integer Array Elements
+// Output : Integer (Product of odd elements, 0 if none)
+//
+//////////////////////////////////////////////////////////////
+// Example:
+//
+// Input: 5
+// Elements: 1 2 3 4 5
+// Output: Product of all odd elements in Array is: 15
+//
+// Input: 4
+// Elements: 2 4 6 8
+// Output: Product of all odd elements in Array is: 0
+//
+// Input: 6
+// Elements: -1 -3 2 4 5 6
+// Output: Product of all odd elements in Array is: 15
 //
 // Time Complexity : O(n)
 //////////////////////////////////////////////////////////////

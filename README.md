@@ -1975,3 +1975,271 @@ Programs based on array elements traversal, counting logic, searching elements, 
 //
 // Time Complexity : O(n)
 //////////////////////////////////////////////////////////////
+
+#Assignment 24 – Array Element Analysis (Basic Logic Programs
+**Description:** Programs based on finding maximum, minimum, and range of array elements. These exercises strengthen understanding of array traversal, comparison logic, and iterative processing in C.
+
+//////////////////////////////////////////////////////////////
+// Program24_1
+//
+// Function Name : Maximum
+// Description : Accepts array elements and returns the maximum element in the array.
+// Input : Integer Array Elements
+// Output : Integer (Maximum element)
+//
+//////////////////////////////////////////////////////////////
+// Example:
+//
+// Input: 5
+// Elements: 10 20 30 40 50
+// Output: Maximum Number in Array: 50
+//
+// Input: 4
+// Elements: -5 -2 -9 -1
+// Output: Maximum Number in Array: -1
+//
+// Input: 6
+// Elements: 0 0 0 0 0 0
+// Output: Maximum Number in Array: 0
+//
+// Time Complexity : O(n)
+//////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////
+// Program24_2
+//
+// Function Name : Minimum
+// Description : Accepts array elements and returns the minimum element in the array.
+// Input : Integer Array Elements
+// Output : Integer (Minimum element)
+//
+//////////////////////////////////////////////////////////////
+// Example:
+//
+// Input: 5
+// Elements: 10 20 30 40 50
+// Output: Minimum Number in Array: 10
+//
+// Input: 4
+// Elements: -5 -2 -9 -1
+// Output: Minimum Number in Array: -9
+//
+// Input: 6
+// Elements: 0 0 0 0 0 0
+// Output: Minimum Number in Array: 0
+//
+// Time Complexity : O(n)
+//////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////
+// Program24_3
+//
+// Function Name : Range
+// Description : Accepts array elements and returns the range (Maximum - Minimum) of the array.
+// Input : Integer Array Elements
+// Output : Integer (Range = Max - Min)
+//
+//////////////////////////////////////////////////////////////
+// Example:
+//
+// Input: 5
+// Elements: 10 20 30 40 50
+// Output: Range of Array (Max - Min): 40
+//
+// Input: 4
+// Elements: -5 -2 -9 -1
+// Output: Range of Array (Max - Min): 8
+//
+// Input: 6
+// Elements: 0 0 0 0 0 0
+// Output: Range of Array (Max - Min): 0
+//
+// Time Complexity : O(n)
+//////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////
+// Program24_4
+//
+// Function Name : DisplayThreeDigit
+// Description : Accepts array elements and displays all elements that are three-digit numbers (positive or negative).
+// Input : Integer Array Elements
+// Output : Integer (Three-digit numbers in array)
+//
+//////////////////////////////////////////////////////////////
+// Example:
+//
+// Input: 6
+// Elements: 10 150 300 5 999 -123
+// Output: 150 300 999 -123
+//
+// Input: 5
+// Elements: 12 45 67 89 1000
+// Output:
+//
+// Input: 4
+// Elements: -100 -200 -5 50
+// Output: -100 -200
+//
+// Time Complexity : O(n)
+//////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////
+// Program24_5
+//
+// Function Name : DisplaySum
+// Description : Accepts array elements and prints the sum of digits of each element.
+// Input : Integer Array Elements
+// Output : Integer (Sum of digits for each element)
+//
+//////////////////////////////////////////////////////////////
+// Example:
+//
+// Input: 5
+// Elements: 123 45 6 789 0
+// Output: 6 9 6 24 0
+//
+// Input: 4
+// Elements: -12 34 -56 78
+// Output: 3 7 11 15
+//
+// Input: 3
+// Elements: 0 1 2
+// Output: 0 1 2
+//
+// Time Complexity : O(n × k) (k = number of digits in element)
+//////////////////////////////////////////////////////////////
+
+
+
+#Assignment 25 – Array Conditional Operations (Basic Logic Programs)
+*Description:* Programs based on array element traversal with conditional checks such as sums, divisibility, and multiples. These exercises strengthen understanding of iteration, conditional statements, and arithmetic operations in arrays.
+
+//////////////////////////////////////////////////////////////
+// Program25_1
+//
+// Function Name : DisplayEvenOddSum
+// Description : Accepts array elements and calculates the difference between sum of even and sum of odd elements.
+// Input : Integer Array Elements
+// Output : Integer (Difference = SumEven - SumOdd)
+//
+//////////////////////////////////////////////////////////////
+// Example:
+//
+// Input: 5
+// Elements: 2 3 4 5 6
+// Output: Difference: 12 - 8 = 4
+//
+// Input: 4
+// Elements: 1 3 5 7
+// Output: Difference: 0 - 16 = -16
+//
+// Input: 6
+// Elements: 2 4 6 8 10 12
+// Output: Difference: 42 - 0 = 42
+//
+// Time Complexity : O(n)
+//////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////
+// Program25_2
+//
+// Function Name : Display
+// Description : Accepts array elements and displays elements divisible by 5.
+// Input : Integer Array Elements
+// Output : Integer (Elements divisible by 5)
+//
+//////////////////////////////////////////////////////////////
+// Example:
+//
+// Input: 6
+// Elements: 5 10 12 15 20 22
+// Output: 5 10 15 20
+//
+// Input: 4
+// Elements: 1 2 3 4
+// Output:
+//
+// Input: 5
+// Elements: 25 30 35 40 45
+// Output: 25 30 35 40 45
+//
+// Time Complexity : O(n)
+//////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////
+// Program25_3
+//
+// Function Name : Display
+// Description : Accepts array elements and displays even elements divisible by 5.
+// Input : Integer Array Elements
+// Output : Integer (Even elements divisible by 5)
+//
+//////////////////////////////////////////////////////////////
+// Example:
+//
+// Input: 6
+// Elements: 5 10 15 20 25 30
+// Output: 10 20 30
+//
+// Input: 4
+// Elements: 1 2 3 4
+// Output:
+//
+// Input: 5
+// Elements: 50 55 60 65 70
+// Output: 50 60 70
+//
+// Time Complexity : O(n)
+//////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////
+// Program25_4
+//
+// Function Name : Display
+// Description : Accepts array elements and displays elements divisible by both 5 and 3.
+// Input : Integer Array Elements
+// Output : Integer (Elements divisible by 5 and 3)
+//
+//////////////////////////////////////////////////////////////
+// Example:
+//
+// Input: 6
+// Elements: 5 10 15 20 30 45
+// Output: 15 30 45
+//
+// Input: 4
+// Elements: 3 6 9 12
+// Output:
+//
+// Input: 5
+// Elements: 15 30 45 50 60
+// Output: 15 30 45 60
+//
+// Time Complexity : O(n)
+//////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////
+// Program25_5
+//
+// Function Name : Display
+// Description : Accepts array elements and displays elements which are multiples of 11.
+// Input : Integer Array Elements
+// Output : Integer (Elements multiples of 11)
+//
+//////////////////////////////////////////////////////////////
+// Example:
+//
+// Input: 6
+// Elements: 11 22 33 44 50 60
+// Output: 11 22 33 44
+//
+// Input: 5
+// Elements: 5 10 15 20 25
+// Output:
+//
+// Input: 7
+// Elements: 11 13 22 33 44 55 66
+// Output: 11 22 33 44 55 66
+//
+// Time Complexity : O(n)
+//////////////////////////////////////////////////////////////

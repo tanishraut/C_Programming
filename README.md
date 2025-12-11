@@ -560,7 +560,7 @@
 //  Description   :     Accepts and prints the user’s name.
 //  Input         :     String
 //  Output        :     Display name entered by user
-//
+/////////////////////////////////////////////////////////////
 //  Example:
 //  Input:  Tanish Raut
 //  Output: Your name is Tanish Raut
@@ -576,7 +576,7 @@
 //  Description   :     Checks whether a number is greater than 100.
 //  Input         :     Integer
 //  Output        :     Boolean / Text (“Greater” or “Smaller”)
-//
+/////////////////////////////////////////////////////////////
 //  Example:
 //  Input: 101
 //  Output: Greater
@@ -595,7 +595,7 @@
 //  Description   :     Checks whether two numbers are equal.
 //  Input         :     Two integers
 //  Output        :     Boolean / Text (“Equal” or “Not Equal”)
-//
+/////////////////////////////////////////////////////////////
 //  Example:
 //  Input: 10 10
 //  Output: Equal
@@ -614,7 +614,7 @@
 //  Description   :     Calculates product of three numbers, treating 0 as 1.
 //  Input         :     Three integers
 //  Output        :     Integer (product)
-//
+/////////////////////////////////////////////////////////////
 //  Example:
 //  Input: 5 7 4
 //  Output: 140
@@ -633,7 +633,7 @@
 //  Description   :     Calculates percentage based on total and obtained marks.
 //  Input         :     Two integers (total, obtained)
 //  Output        :     Float (percentage value)
-//
+/////////////////////////////////////////////////////////////
 //  Example:
 //  Input: 1000 745
 //  Output: 74.50
@@ -652,7 +652,7 @@
 //  Description   :     Prints a pattern of '$ *' symbols for a given number.
 //  Input         :     Integer (number of times)
 //  Output        :     Repeated pattern on a single line
-//
+/////////////////////////////////////////////////////////////
 //  Example:
 //  Input : 5
 //  Output : $ * $ * $ * $ * $ * 
@@ -668,7 +668,7 @@
 //  Description   :     Prints numbers from 1 up to the entered number.
 //  Input         :     Integer (limit)
 //  Output        :     Sequential numbers from 1 to N
-//
+/////////////////////////////////////////////////////////////
 //  Example:
 //  Input : 8
 //  Output : 1 2 3 4 5 6 7 8
@@ -684,7 +684,7 @@
 //  Description   :     Prints numbers from -N to N forming a symmetric line.
 //  Input         :     Integer (range limit)
 //  Output        :     Range of numbers from -N to N
-//
+/////////////////////////////////////////////////////////////
 //  Example:
 //  Input : 4
 //  Output : -4 -3 -2 -1 0 1 2 3 4
@@ -700,7 +700,7 @@
 //  Description   :     Displays all odd numbers up to the entered number.
 //  Input         :     Integer (limit)
 //  Output        :     Sequence of odd numbers up to N
-//
+/////////////////////////////////////////////////////////////
 //  Example:
 //  Input : 10
 //  Output : 1 3 5 7 9
@@ -716,7 +716,7 @@
 //  Description   :     Prints the first five multiples of the given number.
 //  Input         :     Integer
 //  Output        :     5 multiples of the number
-//
+/////////////////////////////////////////////////////////////
 //  Example:
 //  Input : 4
 //  Output : 4 8 12 16 20
@@ -736,7 +736,7 @@
 //                      based on its value range.
 //  Input         :     Integer
 //  Output        :     Text message indicating range
-//
+/////////////////////////////////////////////////////////////
 //  Example:
 //  Input : 30
 //  Output : Small
@@ -758,7 +758,7 @@
 //  Description   :     Displays the word representation of a single-digit number (0–9).
 //  Input         :     Integer (0–9)
 //  Output        :     Word representation or error message
-//
+/////////////////////////////////////////////////////////////
 //  Example:
 //  Input : 5
 //  Output : Five
@@ -777,7 +777,7 @@
 //  Description   :     Calculates the factorial of the entered number using iteration.
 //  Input         :     Integer
 //  Output        :     Integer (factorial result)
-//
+/////////////////////////////////////////////////////////////
 //  Example:
 //  Input : 5
 //  Output : 120
@@ -796,7 +796,7 @@
 //  Description   :     Displays the multiplication table of the given number (1 to 10).
 //  Input         :     Integer
 //  Output        :     10 multiples of the number
-//
+/////////////////////////////////////////////////////////////
 //  Example:
 //  Input : 4
 //  Output : 4 8 12 16 20 24 28 32 36 40
@@ -812,7 +812,7 @@
 //  Description   :     Displays the multiplication table of the given number in reverse order.
 //  Input         :     Integer
 //  Output        :     10 multiples in reverse sequence
-//
+/////////////////////////////////////////////////////////////
 //  Example:
 //  Input : 4
 //  Output : 40 36 32 28 24 20 16 12 8 4
@@ -831,7 +831,7 @@
 //  Description   :     Prints '*' and '#' symbols on screen N times each.
 //  Input         :     Integer (number of times)
 //  Output        :     Repeated '*' and '#' pattern
-//
+/////////////////////////////////////////////////////////////
 //  Example:
 //  Input : 5
 //  Output : * * * * *  # # # # #
@@ -847,7 +847,7 @@
 //  Description   :     Converts a given amount in USD to INR (1 USD = 70 INR).
 //  Input         :     Integer (USD)
 //  Output        :     Integer (INR)
-//
+/////////////////////////////////////////////////////////////
 //  Example:
 //  Input : 10
 //  Output : Value in INR : 700
@@ -866,7 +866,7 @@
 //  Description   :     Calculates factorial of all even numbers up to N.
 //  Input         :     Integer
 //  Output        :     Integer (product of all even numbers ≤ N)
-//
+/////////////////////////////////////////////////////////////
 //  Example:
 //  Input : 6
 //  Output : 48   (2 × 4 × 6)
@@ -885,7 +885,7 @@
 //  Description   :     Calculates factorial of all odd numbers up to N.
 //  Input         :     Integer
 //  Output        :     Integer (product of all odd numbers ≤ N)
-//
+/////////////////////////////////////////////////////////////
 //  Example:
 //  Input : 5
 //  Output : 15   (3 × 5)
@@ -905,7 +905,7 @@
 //                      and odd numbers up to N.
 //  Input         :     Integer
 //  Output        :     Integer (difference of even and odd factorials)
-//
+/////////////////////////////////////////////////////////////
 //  Example:
 //  Input : 5
 //  Output : 33   (48 - 15)
@@ -927,7 +927,7 @@
 //  Description   :     Calculates the area of a circle using its radius.
 //  Input         :     Float (radius)
 //  Output        :     Double (area of circle)
-//
+/////////////////////////////////////////////////////////////
 //  Example:
 //  Input : 5
 //  Output : 78.5000
@@ -945,7 +945,7 @@
 //  Description   :     Calculates the area of a rectangle given its height and width.
 //  Input         :     Two floats (height, width)
 //  Output        :     Double (area of rectangle)
-//
+/////////////////////////////////////////////////////////////
 //  Example:
 //  Input : 5 4
 //  Output : 20.000
@@ -963,7 +963,7 @@
 //  Description   :     Converts a given distance from kilometers to meters.
 //  Input         :     Float (kilometers)
 //  Output        :     Integer (meters)
-//
+/////////////////////////////////////////////////////////////
 //  Example:
 //  Input : 5
 //  Output : 5000
@@ -981,7 +981,7 @@
 //  Description   :     Converts temperature from Fahrenheit to Celsius.
 //  Input         :     Float (Fahrenheit)
 //  Output        :     Double (Celsius)
-//
+/////////////////////////////////////////////////////////////
 //  Example:
 //  Input : 98.6
 //  Output : 37.00 Degree Celsius
@@ -999,7 +999,7 @@
 //  Description   :     Converts area from square feet to square meters.
 //  Input         :     Integer (square feet)
 //  Output        :     Double (square meters)
-//
+/////////////////////////////////////////////////////////////
 //  Example:
 //  Input : 100
 //  Output : 9.290000
@@ -1022,7 +1022,7 @@
 //  Input         :     Two integers (start, end)
 //  Output        :     Prints numbers from start to end
 //  Return Value  :     None
-//
+/////////////////////////////////////////////////////////////
 //  Example:
 //  Input : 23 30
 //  Output : 23 24 25 26 27 28 29 30
@@ -1042,7 +1042,7 @@
 //  Input         :     Two integers (start, end)
 //  Output        :     Prints even numbers from start to end
 //  Return Value  :     None
-//
+/////////////////////////////////////////////////////////////
 //  Example:
 //  Input : 23 35
 //  Output : 24 26 28 30 32 34
@@ -1063,7 +1063,7 @@
 //  Input         :     Two integers (start, end)
 //  Output        :     Integer (sum of numbers in the range)
 //  Return Value  :     -1 if range is invalid
-//
+/////////////////////////////////////////////////////////////
 //  Example:
 //  Input : 23 30
 //  Output : Addition is 212
@@ -1084,7 +1084,7 @@
 //  Input         :     Two integers (start, end)
 //  Output        :     Integer (sum of even numbers in range)
 //  Return Value  :     -1 if range is invalid
-//
+/////////////////////////////////////////////////////////////
 //  Example:
 //  Input : 23 30
 //  Output : Addition is 108
@@ -1108,7 +1108,7 @@
 //  Input         :     Two integers (start, end)
 //  Output        :     Prints numbers in reverse order
 //  Return Value  :     None
-//
+//////////////////////////////////////////////////////////////
 //  Example:
 //  Input : 23 30
 //  Output : 30 29 28 27 26 25 24 23
@@ -1132,6 +1132,7 @@
 //  Output        :     Prints all factors of the entered number
 //  Return Value  :     None
 //
+//////////////////////////////////////////////////////////////
 //  Example:
 //  Input : 12
 //  Output : 1 2 3 4 6 12
@@ -1155,6 +1156,7 @@
 //  Output        :     Integer (count of factors)
 //  Return Value  :     0 if input number is invalid or non-positive
 //
+//////////////////////////////////////////////////////////////
 //  Example:
 //  Input : 12
 //  Output : 6
@@ -1179,6 +1181,7 @@
 //  Output        :     Integer (sum of all factors)
 //  Return Value  :     0 if input number is invalid or non-positive
 //
+//////////////////////////////////////////////////////////////
 //  Example:
 //  Input : 12
 //  Output : 28
@@ -1203,6 +1206,7 @@
 //  Output        :     Integer (sum of even factors)
 //  Return Value  :     0 if input number is invalid or non-positive
 //
+//////////////////////////////////////////////////////////////
 //  Example:
 //  Input : 12
 //  Output : 12   // (2 + 4 + 6)
@@ -1226,6 +1230,7 @@
 //  Output        :     Displays "Yes" if divisible by 5, otherwise "No"
 //  Return Value  :     Boolean (true if divisible by 5, false otherwise)
 //
+//////////////////////////////////////////////////////////////
 //  Example:
 //  Input : 25
 //  Output : Yes
@@ -1252,6 +1257,7 @@
 //  Output        :     Prints all numbers from 1 to limit
 //  Return Value  :     None
 //
+//////////////////////////////////////////////////////////////
 //  Example:
 //  Input : 5
 //  Output : 1 2 3 4 5
@@ -1275,6 +1281,7 @@
 //  Output        :     Prints even numbers from 2 to limit
 //  Return Value  :     None
 //
+//////////////////////////////////////////////////////////////
 //  Example:
 //  Input : 10
 //  Output : 2 4 6 8 10
@@ -1297,7 +1304,7 @@
 //  Input         :     Integer (limit)
 //  Output        :     Prints odd numbers from 1 to limit
 //  Return Value  :     None
-//
+/////////////////////////////////////////////////////////////
 //  Example:
 //  Input : 10
 //  Output : 1 3 5 7 9
@@ -1322,6 +1329,7 @@
 //  Output        :     Integer (sum of natural numbers)
 //  Return Value  :     0 if limit is non-positive
 //
+//////////////////////////////////////////////////////////////
 //  Example:
 //  Input : 10
 //  Output : 55
@@ -1346,6 +1354,7 @@
 //  Output        :     Integer (sum of even numbers)
 //  Return Value  :     0 if limit is non-positive
 //
+//////////////////////////////////////////////////////////////
 //  Example:
 //  Input : 5
 //  Output : 30   // (2 + 4 + 6 + 8 + 10)
@@ -1374,6 +1383,7 @@
 //  Output        :     Prints each digit of the entered number on a new line
 //  Return Value  :     None
 //
+//////////////////////////////////////////////////////////////
 //  Example:
 //  Input : 2395
 //  Output : 
@@ -1406,6 +1416,7 @@
 //  Return Value  :     TRUE  - if the number contains zero
 //                      FALSE - otherwise
 //
+//////////////////////////////////////////////////////////////
 //  Example:
 //  Input : 2395
 //  Output : There is no Zero
@@ -1432,6 +1443,7 @@
 //  Output        :     Integer (count of 2's in the number)
 //  Return Value  :     Integer (count of occurrences of digit 2)
 //
+//////////////////////////////////////////////////////////////
 //  Example:
 //  Input : 2395
 //  Output : 1
@@ -1458,6 +1470,7 @@
 //  Output        :     Integer (count of 4's in the number)
 //  Return Value  :     Integer (count of occurrences of digit 4)
 //
+//////////////////////////////////////////////////////////////
 //  Example:
 //  Input : 2395
 //  Output : 0
@@ -1484,6 +1497,7 @@
 //  Output        :     Integer (count of digits less than 6)
 //  Return Value  :     Integer (count of digits < 6)
 //
+//////////////////////////////////////////////////////////////
 //  Example:
 //  Input : 2395
 //  Output : 3
@@ -1502,8 +1516,11 @@
 
 
 
-# Assignment 15 – Looping & Logic Program Summary
-**Description:** Programs based on digit-wise logic and mathematical operations such as counting even/odd digits, finding digits in a range, multiplying digits, and calculating differences between digit sums. These exercises strengthen understanding of modular arithmetic, conditional logic, and iterative processing using loops.
+# Assignment 22 – Array Elements Operations Summary
+
+**Description:**  
+Programs based on array elements traversal, counting logic, searching elements, and frequency analysis. These exercises strengthen understanding of array manipulation, conditional checks, and iterative processing using loops. Emphasis is on counting even/odd elements, calculating differences between counts, and finding the frequency of specific elements in arrays.
+
 
 //////////////////////////////////////////////////////////////
 //
@@ -1522,6 +1539,7 @@
 //  Output        :     Integer (count of even digits)
 //  Return Value  :     Integer (count of even digits)
 //
+//////////////////////////////////////////////////////////////
 //  Example:
 //  Input : 2395
 //  Output : 1
@@ -1545,6 +1563,7 @@
 //  Output        :     Integer (count of odd digits)
 //  Return Value  :     Integer (count of odd digits)
 //
+//////////////////////////////////////////////////////////////
 //  Example:
 //  Input : 2395
 //  Output : 3
@@ -1568,6 +1587,7 @@
 //  Output        :     Integer (count of digits between 3 and 7)
 //  Return Value  :     Integer (count of digits in range 3–7)
 //
+//////////////////////////////////////////////////////////////
 //  Example:
 //  Input : 2395
 //  Output : 2
@@ -1591,6 +1611,7 @@
 //  Output        :     Integer (product of digits)
 //  Return Value  :     Integer (product of digits)
 //
+//////////////////////////////////////////////////////////////
 //  Example:
 //  Input : 2395
 //  Output : 270
@@ -1618,6 +1639,7 @@
 //  Output        :     Integer (difference between even and odd digit sums)
 //  Return Value  :     Integer (difference = sum_even - sum_odd)
 //
+//////////////////////////////////////////////////////////////
 //  Example:
 //  Input : 2395
 //  Output : -15
@@ -1632,4 +1654,592 @@
 //  Output : 0
 //
 //  Time Complexity : O(d), where d = number of digits
+//////////////////////////////////////////////////////////////
+
+
+#Assignment 22 – Array Elements Operations (Basic Logic Programs)
+
+**Description:** Programs based on array elements traversal, counting logic, searching elements, and frequency analysis.
+
+//////////////////////////////////////////////////////////////
+// Program22_1 
+//
+// Function Name : CountEvenElements
+// Description : Accepts array elements from user and returns count of even elements.
+// Input : Integer Array Elements
+// Output : Integer (Count of even elements)
+//
+//////////////////////////////////////////////////////////////
+// Example:
+//
+// Input: 6
+// Elements: 10 21 30 41 50 63
+// Output: Total Even Elements in Array Elements: 3
+//
+// Input: 4
+// Elements: 2 4 6 8
+// Output: Total Even Elements in Array Elements: 4
+//
+// Input: 5
+// Elements: 1 3 5 7 9
+// Output: Total Even Elements in Array Elements: 0
+//
+// Input: 6
+// Elements: 0 -2 -3 5 6 8
+// Output: Total Even Elements in Array Elements: 4
+//
+// Input: 0
+// Elements:
+// Output: Total Even Elements in Array Elements: 0
+//
+// Time Complexity : O(n)
+//////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////
+// Program22_2 
+//
+// Function Name : DifferenceEvenOddElements
+// Description : Calculates and returns the difference between
+// count of even and odd elements in an array.
+// Input : Integer Array Elements
+// Output : Integer (Difference: Even Count - Odd Count)
+//
+//////////////////////////////////////////////////////////////
+// Example:
+//
+// Input: 6
+// Elements: 2 4 6 1 3 5
+// Output: Difference Between Even and Odd Count of Array Elements: 0
+//
+// Input: 5
+// Elements: 1 3 5 2 4
+// Output: Difference Between Even and Odd Count of Array Elements: 0
+//
+// Input: 4
+// Elements: 2 4 6 8
+// Output: Difference Between Even and Odd Count of Array Elements: 4
+//
+// Input: 5
+// Elements: 1 3 5 7 9
+// Output: Difference Between Even and Odd Count of Array Elements: -5
+//
+// Input: 6
+// Elements: 0 -2 -3 5 6 8
+// Output: Difference Between Even and Odd Count of Array Elements: 1
+//
+// Time Complexity : O(n)
+//////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////
+// Program22_3
+//
+// Function Name : Check
+// Description : Accepts array elements from user and checks whether the number 11 is present in the array.
+// Input : Integer Array Elements
+// Output : Boolean (Presence of 11: Available / Not Available)
+//
+//////////////////////////////////////////////////////////////
+// Example:
+//
+// Input: 6
+// Elements: 10 21 30 11 50 63
+// Output: 11 is Available
+//
+// Input: 5
+// Elements: 1 2 3 4 5
+// Output: 11 is Not Available
+//
+// Input: 4
+// Elements: 11 11 11 11
+// Output: 11 is Available
+//
+//
+// Time Complexity : O(n)
+//////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////
+// Program22_4
+//
+// Function Name : Frequency
+// Description : Accepts array elements from user and returns the frequency of number 11 in the array.
+// Input : Integer Array Elements
+// Output : Integer (Frequency of 11)
+//
+//////////////////////////////////////////////////////////////
+// Example:
+//
+// Input: 7
+// Elements: 10 11 21 11 30 11 40
+// Output: Frequency of 11 in Array is 3
+//
+// Input: 5
+// Elements: 1 2 3 4 5
+// Output: Frequency of 11 in Array is 0
+//
+// Input: 4
+// Elements: 11 11 11 11
+// Output: Frequency of 11 in Array is 4
+//
+//
+// Time Complexity : O(n)
+//////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////
+// Program22_5 
+//
+// Function Name : FrequencyOfElement
+// Description : Accepts a number and returns its frequency from the array elements.
+// Input : Integer Array Elements, Integer (Number to search)
+// Output : Integer (Frequency of the number)
+//
+//////////////////////////////////////////////////////////////
+// Example:
+//
+// Input: 7
+// Number: 11
+// Elements: 10 11 21 11 30 11 40
+// Output: Frequency of Element 11 in Array Elements: 3
+//
+// Input: 5
+// Number: 7
+// Elements: 1 7 2 3 4
+// Output: Frequency of Element 7 in Array Elements: 1
+//
+// Input: 4
+// Number: 5
+// Elements: 1 2 3 4
+// Output: Frequency of Element 5 in Array Elements: 0
+//
+// Input: 4
+// Number: 2
+// Elements: 2 2 2 2
+// Output: Frequency of Element 2 in Array Elements: 4
+//
+// Input: 6
+// Number: -3
+// Elements: 0 -3 2 -3 5 -3
+// Output: Frequency of Element -3 in Array Elements: 3
+//
+// Time Complexity : O(n)
+//////////////////////////////////////////////////////////////
+
+#Assignment 23 – Array Searching Operations (Basic Logic Programs)
+**Description :** Programs based on searching array elements, checking presence, and locating first or last occurrences. These exercises strengthen understanding of array traversal, conditional checks, and iterative logic in C.
+
+
+//////////////////////////////////////////////////////////////
+// Program23_1
+//
+// Function Name : Check
+// Description : Accepts array elements and a number, and checks whether the number is present in the array.
+// Input : Integer Array Elements, Integer (Number to check)
+// Output : Boolean (Presence: Present / Not Present)
+//
+//////////////////////////////////////////////////////////////
+//
+// Example:
+//
+// Input: 6
+// Number: 11
+// Elements: 10 21 30 11 50 63
+// Output: 11 is Present in Array
+//
+// Input: 5
+// Number: 7
+// Elements: 1 2 3 4 5
+// Output: 7 is Not Present in Array
+//
+// Input: 0
+// Number: 10
+// Elements:
+// Output: 10 is Not Present in Array
+//
+// Time Complexity : O(n)
+//////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////
+// Program23_2
+//
+// Function Name : FirstOcc
+// Description : Accepts array elements and a number, and returns the index of its first occurrence.
+// Input : Integer Array Elements, Integer (Number to search)
+// Output : Integer (Index of first occurrence, -1 if not found)
+//
+//////////////////////////////////////////////////////////////
+//
+// Example:
+//
+// Input: 6
+// Number: 11
+// Elements: 10 21 30 11 50 63
+// Output: First occurrence of 11 is at index 3
+//
+// Input: 5
+// Number: 7
+// Elements: 1 2 3 4 5
+// Output: First occurrence of 7 is at index 4
+//
+// Input: 4
+// Number: 2
+// Elements: 2 2 2 2
+// Output: First occurrence of 2 is at index 0
+//
+// Input: 3
+// Number: 9
+// Elements: 1 2 3
+// Output: First occurrence of 9 is at index -1
+//
+// Time Complexity : O(n)
+//////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////
+// Program23_3
+//
+// Function Name : LastOcc
+// Description : Accepts array elements and a number, and returns the index of its last occurrence.
+// Input : Integer Array Elements, Integer (Number to search)
+// Output : Integer (Index of last occurrence, -1 if not found)
+//
+//////////////////////////////////////////////////////////////
+// Example:
+//
+// Input: 6
+// Number: 11
+// Elements: 10 21 30 11 50 11
+// Output: Last occurrence of 11 is at index 5
+//
+// Input: 5
+// Number: 7
+// Elements: 1 2 3 4 5
+// Output: Last occurrence of 7 is at index 4
+//
+// Input: 4
+// Number: 2
+// Elements: 2 2 2 2
+// Output: Last occurrence of 2 is at index 3
+//
+// Time Complexity : O(n)
+//////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////
+// Program23_4
+//
+// Function Name : Display
+// Description : Accepts array elements and a range, and displays elements within that range.
+// Input : Integer Array Elements, Integer Start, Integer End
+// Output : Integer (Elements within the range)
+//
+//////////////////////////////////////////////////////////////
+// Example:
+//
+// Input: 6
+// Start: 10, End: 30
+// Elements: 5 12 18 25 35 40
+// Output: 12 18 25
+//
+// Input: 5
+// Start: 0, End: 5
+// Elements: 1 2 3 4 5
+// Output: 1 2 3 4 5
+//
+// Input: 4
+// Start: 50, End: 60
+// Elements: 10 20 30 40
+// Output:
+//
+// Time Complexity : O(n)
+//////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////
+// Program23_5
+//
+// Function Name : Product
+// Description : Accepts array elements and returns the product of all odd elements.
+// Input : Integer Array Elements
+// Output : Integer (Product of odd elements, 0 if none)
+//
+//////////////////////////////////////////////////////////////
+// Example:
+//
+// Input: 5
+// Elements: 1 2 3 4 5
+// Output: Product of all odd elements in Array is: 15
+//
+// Input: 4
+// Elements: 2 4 6 8
+// Output: Product of all odd elements in Array is: 0
+//
+// Input: 6
+// Elements: -1 -3 2 4 5 6
+// Output: Product of all odd elements in Array is: 15
+//
+// Time Complexity : O(n)
+//////////////////////////////////////////////////////////////
+
+#Assignment 24 – Array Element Analysis (Basic Logic Programs
+**Description:** Programs based on finding maximum, minimum, and range of array elements. These exercises strengthen understanding of array traversal, comparison logic, and iterative processing in C.
+
+//////////////////////////////////////////////////////////////
+// Program24_1
+//
+// Function Name : Maximum
+// Description : Accepts array elements and returns the maximum element in the array.
+// Input : Integer Array Elements
+// Output : Integer (Maximum element)
+//
+//////////////////////////////////////////////////////////////
+// Example:
+//
+// Input: 5
+// Elements: 10 20 30 40 50
+// Output: Maximum Number in Array: 50
+//
+// Input: 4
+// Elements: -5 -2 -9 -1
+// Output: Maximum Number in Array: -1
+//
+// Input: 6
+// Elements: 0 0 0 0 0 0
+// Output: Maximum Number in Array: 0
+//
+// Time Complexity : O(n)
+//////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////
+// Program24_2
+//
+// Function Name : Minimum
+// Description : Accepts array elements and returns the minimum element in the array.
+// Input : Integer Array Elements
+// Output : Integer (Minimum element)
+//
+//////////////////////////////////////////////////////////////
+// Example:
+//
+// Input: 5
+// Elements: 10 20 30 40 50
+// Output: Minimum Number in Array: 10
+//
+// Input: 4
+// Elements: -5 -2 -9 -1
+// Output: Minimum Number in Array: -9
+//
+// Input: 6
+// Elements: 0 0 0 0 0 0
+// Output: Minimum Number in Array: 0
+//
+// Time Complexity : O(n)
+//////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////
+// Program24_3
+//
+// Function Name : Range
+// Description : Accepts array elements and returns the range (Maximum - Minimum) of the array.
+// Input : Integer Array Elements
+// Output : Integer (Range = Max - Min)
+//
+//////////////////////////////////////////////////////////////
+// Example:
+//
+// Input: 5
+// Elements: 10 20 30 40 50
+// Output: Range of Array (Max - Min): 40
+//
+// Input: 4
+// Elements: -5 -2 -9 -1
+// Output: Range of Array (Max - Min): 8
+//
+// Input: 6
+// Elements: 0 0 0 0 0 0
+// Output: Range of Array (Max - Min): 0
+//
+// Time Complexity : O(n)
+//////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////
+// Program24_4
+//
+// Function Name : DisplayThreeDigit
+// Description : Accepts array elements and displays all elements that are three-digit numbers (positive or negative).
+// Input : Integer Array Elements
+// Output : Integer (Three-digit numbers in array)
+//
+//////////////////////////////////////////////////////////////
+// Example:
+//
+// Input: 6
+// Elements: 10 150 300 5 999 -123
+// Output: 150 300 999 -123
+//
+// Input: 5
+// Elements: 12 45 67 89 1000
+// Output:
+//
+// Input: 4
+// Elements: -100 -200 -5 50
+// Output: -100 -200
+//
+// Time Complexity : O(n)
+//////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////
+// Program24_5
+//
+// Function Name : DisplaySum
+// Description : Accepts array elements and prints the sum of digits of each element.
+// Input : Integer Array Elements
+// Output : Integer (Sum of digits for each element)
+//
+//////////////////////////////////////////////////////////////
+// Example:
+//
+// Input: 5
+// Elements: 123 45 6 789 0
+// Output: 6 9 6 24 0
+//
+// Input: 4
+// Elements: -12 34 -56 78
+// Output: 3 7 11 15
+//
+// Input: 3
+// Elements: 0 1 2
+// Output: 0 1 2
+//
+// Time Complexity : O(n × k) (k = number of digits in element)
+//////////////////////////////////////////////////////////////
+
+
+
+#Assignment 25 – Array Conditional Operations (Basic Logic Programs)
+*Description:* Programs based on array element traversal with conditional checks such as sums, divisibility, and multiples. These exercises strengthen understanding of iteration, conditional statements, and arithmetic operations in arrays.
+
+//////////////////////////////////////////////////////////////
+// Program25_1
+//
+// Function Name : DisplayEvenOddSum
+// Description : Accepts array elements and calculates the difference between sum of even and sum of odd elements.
+// Input : Integer Array Elements
+// Output : Integer (Difference = SumEven - SumOdd)
+//
+//////////////////////////////////////////////////////////////
+// Example:
+//
+// Input: 5
+// Elements: 2 3 4 5 6
+// Output: Difference: 12 - 8 = 4
+//
+// Input: 4
+// Elements: 1 3 5 7
+// Output: Difference: 0 - 16 = -16
+//
+// Input: 6
+// Elements: 2 4 6 8 10 12
+// Output: Difference: 42 - 0 = 42
+//
+// Time Complexity : O(n)
+//////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////
+// Program25_2
+//
+// Function Name : Display
+// Description : Accepts array elements and displays elements divisible by 5.
+// Input : Integer Array Elements
+// Output : Integer (Elements divisible by 5)
+//
+//////////////////////////////////////////////////////////////
+// Example:
+//
+// Input: 6
+// Elements: 5 10 12 15 20 22
+// Output: 5 10 15 20
+//
+// Input: 4
+// Elements: 1 2 3 4
+// Output:
+//
+// Input: 5
+// Elements: 25 30 35 40 45
+// Output: 25 30 35 40 45
+//
+// Time Complexity : O(n)
+//////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////
+// Program25_3
+//
+// Function Name : Display
+// Description : Accepts array elements and displays even elements divisible by 5.
+// Input : Integer Array Elements
+// Output : Integer (Even elements divisible by 5)
+//
+//////////////////////////////////////////////////////////////
+// Example:
+//
+// Input: 6
+// Elements: 5 10 15 20 25 30
+// Output: 10 20 30
+//
+// Input: 4
+// Elements: 1 2 3 4
+// Output:
+//
+// Input: 5
+// Elements: 50 55 60 65 70
+// Output: 50 60 70
+//
+// Time Complexity : O(n)
+//////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////
+// Program25_4
+//
+// Function Name : Display
+// Description : Accepts array elements and displays elements divisible by both 5 and 3.
+// Input : Integer Array Elements
+// Output : Integer (Elements divisible by 5 and 3)
+//
+//////////////////////////////////////////////////////////////
+// Example:
+//
+// Input: 6
+// Elements: 5 10 15 20 30 45
+// Output: 15 30 45
+//
+// Input: 4
+// Elements: 3 6 9 12
+// Output:
+//
+// Input: 5
+// Elements: 15 30 45 50 60
+// Output: 15 30 45 60
+//
+// Time Complexity : O(n)
+//////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////
+// Program25_5
+//
+// Function Name : Display
+// Description : Accepts array elements and displays elements which are multiples of 11.
+// Input : Integer Array Elements
+// Output : Integer (Elements multiples of 11)
+//
+//////////////////////////////////////////////////////////////
+// Example:
+//
+// Input: 6
+// Elements: 11 22 33 44 50 60
+// Output: 11 22 33 44
+//
+// Input: 5
+// Elements: 5 10 15 20 25
+// Output:
+//
+// Input: 7
+// Elements: 11 13 22 33 44 55 66
+// Output: 11 22 33 44 55 66
+//
+// Time Complexity : O(n)
 //////////////////////////////////////////////////////////////

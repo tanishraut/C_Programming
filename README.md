@@ -2243,3 +2243,247 @@ Programs based on array elements traversal, counting logic, searching elements, 
 //
 // Time Complexity : O(n)
 //////////////////////////////////////////////////////////////
+
+
+#Assignment 26 – Basic Pattern Printing (Loops & Sequence Patterns)
+
+*Description:* Programs based on simple pattern generation using alphabets, numbers, and symbols. These exercises strengthen understanding of iteration, ASCII character handling, and basic loop constructs.
+
+//////////////////////////////////////////////////////////////
+// Program26_1
+//
+// Function Name : Pattern
+// Description : Accepts a number and prints the first N capital alphabets in sequence (A B C …).
+// Input : Integer
+// Output : Characters (A B C …)
+//
+//////////////////////////////////////////////////////////////
+// Example:
+//
+// Input: 5
+// Output: A B C D E
+//
+// Input: 3
+// Output: A B C
+//
+// Input: 1
+// Output: A
+//
+// Time Complexity : O(n)
+//////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////
+// Program26_2
+//
+// Function Name : Pattern
+// Description : Accepts a number and prints numbers in reverse order, each followed by a '#' symbol.
+// Input : Integer
+// Output : Number + Symbol Pattern
+//
+//////////////////////////////////////////////////////////////
+// Example:
+//
+// Input: 5
+// Output: 5 # 4 # 3 # 2 # 1 #
+//
+// Input: 3
+// Output: 3 # 2 # 1 #
+//
+// Input: 1
+// Output: 1 #
+//
+// Time Complexity : O(n)
+//////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////
+// Program26_3
+//
+// Function Name : Pattern
+// Description : Accepts a number and prints alternating number and '*' symbol (1 * 2 * 3 * …).
+// Input : Integer
+// Output : Alternating Number-Star Pattern
+//
+//////////////////////////////////////////////////////////////
+// Example:
+//
+// Input: 5
+// Output: 1 * 2 * 3 * 4 * 5 *
+//
+// Input: 3
+// Output: 1 * 2 * 3 *
+//
+// Input: 1
+// Output: 1 *
+//
+// Time Complexity : O(n)
+//////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////
+// Program26_4
+//
+// Function Name : Pattern
+// Description : Accepts a number and prints pattern of (# number *) repeatedly.
+// Input : Integer
+// Output : # N * format pattern
+//
+//////////////////////////////////////////////////////////////
+// Example:
+//
+// Input: 5
+// Output:
+// # 1 * # 2 * # 3 * # 4 * # 5 *
+//
+// Input: 3
+// Output:
+// # 1 * # 2 * # 3 *
+//
+// Input: 1
+// Output:
+// # 1 *
+//
+// Time Complexity : O(n)
+//////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////
+// Program26_5
+//
+// Function Name : Pattern
+// Description : Accepts a number and prints first N even numbers.
+// Input : Integer
+// Output : Even Number Sequence
+//
+//////////////////////////////////////////////////////////////
+// Example:
+//
+// Input: 5
+// Output: 2 4 6 8 10
+//
+// Input: 3
+// Output: 2 4 6
+//
+// Input: 1
+// Output: 2
+//
+// Time Complexity : O(n)
+//////////////////////////////////////////////////////////////
+
+
+#Assignment 26 – Pattern Printing (Number & Symbol Patterns)
+
+*Description:* Programs based on row–column iteration and number/symbol printing. These patterns help understand nested loops, sequence generation, and conditional logic.
+//////////////////////////////////////////////////////////////
+// Program27_1
+//
+// Function Name : Pattern
+// Description : Accepts number of rows and columns and prints numbers from 1 to iCol in each row.
+// Input : Integer (Rows), Integer (Columns)
+// Output : Number pattern
+//
+//////////////////////////////////////////////////////////////
+// Example:
+//
+// Input: Rows = 3, Columns = 5
+// Output:
+// 1 2 3 4 5
+// 1 2 3 4 5
+// 1 2 3 4 5
+//
+// Input: Rows = 2, Columns = 3
+// Output:
+// 1 2 3
+// 1 2 3
+//
+// Input: Rows = 1, Columns = 4
+// Output:
+// 1 2 3 4
+//
+// Time Complexity : O(iRow × iCol)
+//////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////
+// Program27_2
+//
+// Function Name : Pattern
+// Description : Accepts number of rows and columns and prints numbers in reverse order (iCol → 1) for each row.
+// Input : Integer (Rows), Integer (Columns)
+// Output : Reverse number pattern
+//
+//////////////////////////////////////////////////////////////
+// Example:
+//
+// Input: Rows = 3, Columns = 4
+// Output:
+// 4 3 2 1
+// 4 3 2 1
+// 4 3 2 1
+//
+// Input: Rows = 2, Columns = 3
+// Output:
+// 3 2 1
+// 3 2 1
+//
+// Input: Rows = 1, Columns = 5
+// Output:
+// 5 4 3 2 1
+//
+// Time Complexity : O(iRow × iCol)
+//////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////
+// Program27_3
+//
+// Function Name : Pattern
+// Description : Accepts number of rows and columns and prints '' on odd columns and '#' on even columns.
+// Input : Integer (Rows), Integer (Columns)
+// Output : Alternating '' and '#' pattern
+//
+//////////////////////////////////////////////////////////////
+// Example:
+//
+// Input: Rows = 3, Columns = 6
+// Output:
+// * # * # * #
+// * # * # * #
+// * # * # * #
+//
+// Input: Rows = 2, Columns = 4
+// Output:
+// * # * #
+// * # * #
+//
+// Input: Rows = 1, Columns = 5
+// Output:
+// * # * # *
+//
+// Time Complexity : O(iRow × iCol)
+//////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////
+// Program27_4
+//
+// Function Name : Pattern
+// Description : Accepts number of rows and columns and prints the row number repeatedly across each column.
+// Input : Integer (Rows), Integer (Columns)
+// Output : Row-based number pattern
+//
+//////////////////////////////////////////////////////////////
+// Example:
+//
+// Input: Rows = 4, Columns = 5
+// Output:
+// 1 1 1 1 1
+// 2 2 2 2 2
+// 3 3 3 3 3
+// 4 4 4 4 4
+//
+// Input: Rows = 2, Columns = 3
+// Output:
+// 1 1 1
+// 2 2 2
+//
+// Input: Rows = 1, Columns = 4
+// Output:
+// 1 1 1 1
+//
+// Time Complexity : O(iRow × iCol)
+//////////////////////////////////////////////////////////////
